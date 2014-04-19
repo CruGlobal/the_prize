@@ -1,0 +1,16 @@
+<%= content_for :page_title, 'The Prize' %>
+<%= content_for :page, 'home' %>
+<div class="video-container">
+	<iframe id="vimeo" width="500" height="281" src="//player.vimeo.com/video/90343478?api=1&autoplay=true" frameborder="0" allowfullscreen=""></iframe>
+	<div class="halt"> Hello World</div>
+</div>
+
+<h2 class="blue header">Watch how five stars deal with unbelievable pressures of the game and life.</h2>
+<h1>Meet the Stars</h1>
+<div id="players" class="row">
+	<div class="col-md-2 col-md-offset-1"><a href="<%= page_path('the_stars/kaka') %>"><%= image_tag "kaka.jpg" %><h2>KAKÁ</h2><h4 class="blue">Brazil</h4></a></div>
+	<div class="col-md-2"><a href="<%= page_path('the_stars/caucau') %>"><%= image_tag "kaka.jpg" %><h2>Caucau</h2><h4 class="blue">Germany</h4></a></div>
+	<div class="col-md-2"><a href="<%= page_path('the_stars/enoh') %>"><%= image_tag "kaka.jpg" %><h2>Enoh</h2><h4 class="blue">Cameroon</h4></a></div>
+	<div class="col-md-2"><a href="<%= page_path('the_stars/guzan') %>"><%= image_tag "kaka.jpg" %><h2>Guzan</h2><h4 class="blue">US</h4></a></div>
+	<div class="col-md-2"><a href="<%= page_path('the_stars/mulenga') %>"><%= image_tag "kaka.jpg" %><h2>Mulenga</h2><h4 class="blue">Zambia</h4></a></div>
+</div>

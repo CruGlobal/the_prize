@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  # config/routes.rb
+  get "/pages/*id" => 'pages#show', as: :page, format: false
+
+  # if routing the root path, update for your controller
+  root to: 'pages#show', id: 'home'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

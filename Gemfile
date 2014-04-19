@@ -31,7 +31,7 @@ gem 'pundit'
 gem 'sendgrid'
 gem 'simple_form'
 gem 'high_voltage'
-gem "font-awesome-rails"
+gem 'font-awesome-rails'
 
 group :development do
   gem 'better_errors'
@@ -45,6 +45,9 @@ group :development do
   gem 'rb-fchange', :require=>false
   gem 'rb-fsevent', :require=>false
   gem 'rb-inotify', :require=>false
+  gem 'byebug'
+  gem 'pry'
+  gem 'pry-debugger'
 end
 
 group :development, :test do

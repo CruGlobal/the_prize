@@ -1,23 +1,66 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  title: "The Prize"
+  seperator: "-"
+  menu:
+    home: "Home"
+    about: "About"
+    the_stars: "The Stars"
+    dvd: "DVD"
+  footer:
+    copyright: "Copyright"
+  home:
+    title: "Watch how five stars deal with unbelievable pressures of the game and life."
+    meet_the_stars: "Meet The Stars"
+  flow:
+    home:
+      question: "Do you want to start following Jesus?"
+      answer1: "No"
+      answer2: "I want to know more"
+      answer3: "I want to start"
+      answer4: "I'm already a Christian"
+    more:
+      page_title: "More Info"
+      title: "Watch Bosco explain what it means to follow Jesus. Is this what you want?"
+      question: "Did you pray to begin a relationship with God?"
+      answer1: "Yes"
+      answer2: "No"
+      answer3: "I'm already a Christian"
+    thanks:
+      page_title: "Thanks"
+      title: "Thanks for watching the prize"
+      subtitle: "You have told us that you don't want to follow Jesus"
+      text: "If you have any questions you can find answers at <a href='http://www.everystudent.com'>everystudent.com</a>"
+    christian:
+      page_title: "Share"
+      title: "That's Awesome"
+      subtitle: "Share this with your friends now"
+  the_stars:
+    kaka:
+      name: "Kaka"
+      country: "Brazil"
+      col1: "Talking about pressure which we encounter, I believe this pressure is for everybody. I believe everyone at every level goes through some pressure. The same at different stages. Now for me personally having this pressure is just trusting the Lord. The Bible says “Cast your cares on him for he cares”. When I understand that the life I am living is no more my own. It is a life he has died for. He has exchanged his life for my life and has given me a life of peace and a life of joy to life for, then I live beyond myself. I live beyond what people say, beyond what people think. I focus more on what the Lord says about me."
+      col2: "... a friend of mine from school spoke to me about the Lord Jesus. ... and it just came to me like reality. He talked to my heart, he touched my heart and the gospel became very real to me. Ever since that day, I have just been in love with Jesus."
+    caucau:
+      name: "Caucau"
+      country: "Germany"
+      col1: "Talking about pressure which we encounter, I believe this pressure is for everybody. I believe everyone at every level goes through some pressure. The same at different stages. Now for me personally having this pressure is just trusting the Lord. The Bible says “Cast your cares on him for he cares”. When I understand that the life I am living is no more my own. It is a life he has died for. He has exchanged his life for my life and has given me a life of peace and a life of joy to life for, then I live beyond myself. I live beyond what people say, beyond what people think. I focus more on what the Lord says about me."
+      col2: "... a friend of mine from school spoke to me about the Lord Jesus. ... and it just came to me like reality. He talked to my heart, he touched my heart and the gospel became very real to me. Ever since that day, I have just been in love with Jesus."
+    enoh:
+      name: "Enoh"
+      country: "Cameroon"
+      col1: "Talking about pressure which we encounter, I believe this pressure is for everybody. I believe everyone at every level goes through some pressure. The same at different stages. Now for me personally having this pressure is just trusting the Lord. The Bible says “Cast your cares on him for he cares”. When I understand that the life I am living is no more my own. It is a life he has died for. He has exchanged his life for my life and has given me a life of peace and a life of joy to life for, then I live beyond myself. I live beyond what people say, beyond what people think. I focus more on what the Lord says about me."
+      col2: "... a friend of mine from school spoke to me about the Lord Jesus. ... and it just came to me like reality. He talked to my heart, he touched my heart and the gospel became very real to me. Ever since that day, I have just been in love with Jesus."
+    guzan:
+      name: "Guzan"
+      country: "US"
+      col1: "Talking about pressure which we encounter, I believe this pressure is for everybody. I believe everyone at every level goes through some pressure. The same at different stages. Now for me personally having this pressure is just trusting the Lord. The Bible says “Cast your cares on him for he cares”. When I understand that the life I am living is no more my own. It is a life he has died for. He has exchanged his life for my life and has given me a life of peace and a life of joy to life for, then I live beyond myself. I live beyond what people say, beyond what people think. I focus more on what the Lord says about me."
+      col2: "... a friend of mine from school spoke to me about the Lord Jesus. ... and it just came to me like reality. He talked to my heart, he touched my heart and the gospel became very real to me. Ever since that day, I have just been in love with Jesus."
+    mulenga:
+      name: "Mulenga"
+      country: "Zambia"
+      col1: "Talking about pressure which we encounter, I believe this pressure is for everybody. I believe everyone at every level goes through some pressure. The same at different stages. Now for me personally having this pressure is just trusting the Lord. The Bible says “Cast your cares on him for he cares”. When I understand that the life I am living is no more my own. It is a life he has died for. He has exchanged his life for my life and has given me a life of peace and a life of joy to life for, then I live beyond myself. I live beyond what people say, beyond what people think. I focus more on what the Lord says about me."
+      col2: "... a friend of mine from school spoke to me about the Lord Jesus. ... and it just came to me like reality. He talked to my heart, he touched my heart and the gospel became very real to me. Ever since that day, I have just been in love with Jesus."
+  about:
+    title: "Watch how five stars deal with unbelievable pressures of the game and life."
+    col1: "Genissit, arum dolor asincto veribea arum, comnis magnimaxim eosserf ereptatem nime nectatus et aut quiaerrum audissit re, venis niet modi consequ iscium de molorias doluptatur aut eatis ius quidus sequaeperum nus suntius vendit aci untum re isquaspis dolent quodit fugiatis ea nihillab illa voloribus ium voluptatios repeliquiae accab iliame dolorru menime inciis alit omnis vercipsam quasinu llabo. Qui dere exceaque nonsequat."
+    col2: "Pient endi velendi omnita doluptas simil expedi non consedi ciisin cus ipsam, toriae lanist quo mo maion pa enis res pe poressi dolupta tiorest ionsero to et voluptiae corum et utem aturi."

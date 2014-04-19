@@ -1,7 +1,7 @@
-<%= content_for :page_title, '- Share' %>
+<%= content_for :page_title, "#{I18n.t 'seperator'} #{I18n.t 'flow.christian.page_title'}" %>
 <%= content_for :page, 'short' %>
 <div class="profile">
-	<h2>That's Awesome</h2><h4 class="blue">Share this with your friends now</h4>
+	<h2><%= I18n.t 'flow.christian.title' %></h2><h4 class="blue"><%= I18n.t 'flow.christian.subtitle' %></h4>
 </div>
 <div class="row">
 	<div class="col-md-12 text-center">

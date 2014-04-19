@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   # if routing the root path, update for your controller
   root to: 'pages#show', id: 'home'
 
+  post "/starter_requests" => "starter_requests#create"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

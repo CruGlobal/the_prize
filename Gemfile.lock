@@ -188,6 +188,8 @@ GEM
       ffi (>= 0.5.0)
     rdoc (4.1.1)
       json (~> 1.4)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
@@ -283,6 +285,7 @@ DEPENDENCIES
   rb-fchange
   rb-fsevent
   rb-inotify
+  rest-client
   rspec-rails
   sass-rails (~> 4.0.1)
   sdoc (~> 0.4.0)

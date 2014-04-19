@@ -1,1 +1,39 @@
 <%= content_for :page, 'short' %>
+
+<h2>We’re so excited you made this decision.<h2>
+<h2>So is Jesus!</h2>
+
+<%= form_tag("/starter_requests", method: "post", remote: true, style: "width: 300px; float: left") do %>
+  <h1>What<h1/>
+  <h1>Now?</h1>
+
+  <p>
+  Knowing how to start following 
+  Jesus isn’t always clear, which 
+  is why we created a free Spiritual 
+  Starter Kit.</p>
+
+  <p>The kit includes…</p>
+
+  <div id="starter_fields">
+    <%= label(:name, "Name") %>
+    <%= text_field_tag(:name) %>
+    <br/>
+    <%= label(:email, "Email") %>
+    <%= text_field_tag(:email) %>
+  </div>
+  <%= submit_tag "Get my free Spiritual Starter Kit" %>
+<% end %>
+
+<%= form_tag("/starter_requests", method: "post", remote: true, style: "width: 300px; float: left") do %>
+  <h1>Invite A<h1/>
+  <h1>Friend</h1>
+
+  <p>Do you have a Christian friend you 
+  know and trust?</p>
+
+  <p>Invite them to receive our free 
+  Spiritual Starter Kit so they can help 
+  you along the way.</p>
+
+<% end %>

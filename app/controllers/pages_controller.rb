@@ -6,6 +6,8 @@ class PagesController < ApplicationController
   private
 
   def update_visit
+    current_visit.update_attribute(:end_at, Time.now)
+
     logger.info "PagesController#update_visitor params: #{params}"
     logger.info "PagesController#update_visitor session: #{session.keys.inspect}"
     logger.info "PagesController#update_visitor visit: #{current_visit.id}"
@@ -17,6 +19,8 @@ class PagesController < ApplicationController
       case referrer_path
       when "/"
         current_visit.update_attribute(:vid1_response, "no")
+      when "/pages/flow/more"
+        current_visit.update_attribute(:vid2_response, "no")
       when "/pages/flow/start"
         current_visit.update_attribute(:vid2_response, "no")
       end
@@ -24,8 +28,10 @@ class PagesController < ApplicationController
       current_visit.update_attribute(:vid1_response, "start")
     when "flow/christian"
       case referrer_path
-      when ""
+      when "/"
         current_visit.update_attribute(:vid1_response, "christian")
+      when "/pages/flow/more"
+        current_visit.update_attribute(:vid2_response, "christian")
       when "/pages/flow/start"
         current_visit.update_attribute(:vid2_response, "christian")
       end

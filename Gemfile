@@ -32,6 +32,7 @@ gem 'sendgrid'
 gem 'simple_form'
 gem 'high_voltage'
 gem 'font-awesome-rails'
+gem 'rest-client'
 
 group :development do
   gem 'better_errors'

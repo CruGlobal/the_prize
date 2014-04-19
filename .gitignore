@@ -80,3 +80,4 @@ pickle-email-*.html
 .powenv
 
 notes.txt
+config/initializers/0_setup_env.rb

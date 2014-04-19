@@ -8,18 +8,54 @@ describe PagesController, :type => :controller do
     end
   end
 
-  describe "flow/thanks after home" do
-    it "should set vid1_response no" do
+  describe "video 1 repsonse" do
+    it "should work with 'no'" do
       get 'show', :id => 'home'
       request.env["HTTP_REFERER"] = "http://site.com/"
       get 'show', :id => 'flow/thanks'
       response.should be_success
       Visit.last.vid1_response.should == "no"
     end
+
+    it "should work with 'I want to know more'" do
+      get 'show', :id => 'home'
+      request.env["HTTP_REFERER"] = "http://site.com/"
+      get 'show', :id => 'flow/more'
+      response.should be_success
+      Visit.last.vid1_response.should == "more"
+    end
+
+    it "should work with 'I want to start'" do
+      get 'show', :id => 'home'
+      request.env["HTTP_REFERER"] = "http://site.com/"
+      get 'show', :id => 'flow/start'
+      response.should be_success
+      Visit.last.vid1_response.should == "start"
+    end
+
+    it "should work with 'I'm already a Christian'" do
+      get 'show', :id => 'home'
+      request.env["HTTP_REFERER"] = "http://site.com/"
+      get 'show', :id => 'flow/christian'
+      response.should be_success
+      Visit.last.vid1_response.should == "christian"
+    end
   end
 
-  describe "flow/thanks after start" do
-    it "should set vid2_response no" do
+  describe "video 2 response" do
+    it "should work with 'Yes'" do
+      get 'show', :id => 'home'
+      request.env["HTTP_REFERER"] = "http://site.com/"
+      get 'show', :id => 'flow/start'
+      request.env["HTTP_REFERER"] = "http://site.com/pages/flow/start"
+      get 'show', :id => 'flow/challenge'
+      request.env["HTTP_REFERER"] = "http://site.com/pages/flow/challenge"
+      response.should be_success
+      Visit.last.vid1_response.should == "start"
+      Visit.last.vid2_response.should == "yes"
+    end
+
+    it "should work with 'Thanks'" do
       get 'show', :id => 'home'
       request.env["HTTP_REFERER"] = "http://site.com/"
       get 'show', :id => 'flow/start'
@@ -28,6 +64,18 @@ describe PagesController, :type => :controller do
       response.should be_success
       Visit.last.vid1_response.should == "start"
       Visit.last.vid2_response.should == "no"
+    end
+
+    it "should work with 'Christian'" do
+      get 'show', :id => 'home'
+      request.env["HTTP_REFERER"] = "http://site.com/"
+      get 'show', :id => 'flow/start'
+      request.env["HTTP_REFERER"] = "http://site.com/pages/flow/start"
+      get 'show', :id => 'flow/christian'
+
+      response.should be_success
+      Visit.last.vid1_response.should == "start"
+      Visit.last.vid2_response.should == "christian"
     end
   end
 

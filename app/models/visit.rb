@@ -16,7 +16,7 @@ class Visit < ActiveRecord::Base
 
   def sync_mh
     return unless email.present?
-    byebug
+    #byebug
     p = Rest.post("https://www.missionhub.com/apis/v3/people?secret=#{ENV['MISSIONHUB_SECRET']}&permissions=#{Visit::MH_VISITOR_PERMISSION}#{"&person[first_name]=#{esc(first_name)}" if first_name.present?}#{"&person[last_name]=#{esc(last_name)}" if last_name.present?}#{"&person[email]=#{email}" if email.present?}")["person"]
     self.update_attribute :missionhub_id, p["id"]
   end

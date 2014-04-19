@@ -142,6 +142,20 @@ footer {
 		margin-bottom: 30px;
 	}
 }
+.halt {
+	display: none;
+	position: absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom: 50px;
+	background: #000;
+	background: rgba(0,0,0,0.5);
+	padding:20px;
+	.btn {
+		margin-bottom: 20px;
+	}
+}
 .home {
 	.navbar {
 		.navbar-brand {

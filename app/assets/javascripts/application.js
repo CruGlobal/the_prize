@@ -17,8 +17,7 @@
 //= require_tree .
 var ready;
 ready = function() {
-
-	var iframe = $('#vimeo')[0];
+	var iframe = $('#player')[0];
 	
   if (iframe !== undefined) {
     player = $f(iframe);

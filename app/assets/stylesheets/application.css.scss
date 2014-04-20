@@ -69,12 +69,12 @@ p {
 			width:100%;
 			border-radius: 100%;
 			border:10px solid #C5C6C6;
+			transition : border 500ms ease-out; 
 		}
 		&:hover {
 			text-decoration: none;
 			img {
 				border-color:#09538B;
-				transition : border 500ms ease-out; 
 			}
 		}
 	}

@@ -5,6 +5,6 @@
 </div>
 <div class="row">
 	<div class="col-md-12 text-center">
-		<%= I18n.t('flow.thanks.text').html_safe %>
+		<%= I18n.t('flow.thanks.text_html', :href => link_to( I18n.t("flow.thanks.text_link"), I18n.t("flow.thanks.text_url"), :target => "_blank")).html_safe %>
 	</div>
 </div>

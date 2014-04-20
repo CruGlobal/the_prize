@@ -29,7 +29,9 @@ en:
       page_title: "Thanks"
       title: "Thanks for watching the prize"
       subtitle: "You have told us that you don't want to follow Jesus"
-      text: "If you have any questions you can find answers at <a href='http://www.everystudent.com'>everystudent.com</a>"
+      text_html: "If you have any questions you can find answers at %{href}"
+      text_link: "everystudent.com"
+      text_url: "http://www.everystudent.com"
     christian:
       page_title: "Share"
       title: "That's Awesome"

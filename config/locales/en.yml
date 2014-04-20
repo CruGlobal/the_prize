@@ -34,6 +34,21 @@ en:
       page_title: "Share"
       title: "That's Awesome"
       subtitle: "Share this with your friends now"
+    challenge:
+      page_title: "The Challenge"
+      title: "We’re so excited you made this decision"
+      subtitle: "and so is Jesus!"
+      action_form:
+        title: "What Now?"
+        text1: "Knowing how to start following Jesus isn’t always clear, which is why we created a free Spiritual Starter Kit."
+        text2: "The kit includes…"
+        name: "Name"
+        email: "Email"
+        button: "Get my free Spiritual Starter Kit"
+      invite:
+        title: "Invite a Friend"
+        text1: "Do you have a Christian friend you know and trust?"
+        text2: "Invite them to receive our free Spiritual Starter Kit so they can help you along the way."
   the_stars:
     kaka:
       name: "Kaka"

@@ -1,39 +1,52 @@
+<%= content_for :page_title, "#{I18n.t 'seperator'} #{I18n.t 'flow.challenge.page_title'}" %>
 <%= content_for :page, 'short' %>
+<div class="profile">
+  <h2><%= I18n.t 'flow.challenge.title' %></h2><h4 class="blue"><%= I18n.t 'flow.challenge.subtitle' %></h4>
+</div>
+<div class="col-md-10 col-md-offset-1 challenge">
+  <%= form_tag "/starter_requests", method: "post", remote: true, class: "col-md-6", role:"form" do %>
+    <h2 class="blue"><%= I18n.t 'flow.challenge.action_form.title' %></h2>
+    <p>
+      <%= I18n.t 'flow.challenge.action_form.text1' %>
+    </p>
 
-<h2>We’re so excited you made this decision.<h2>
-<h2>So is Jesus!</h2>
+    <p>
+      <%= I18n.t 'flow.challenge.action_form.text2' %>
+    </p>
 
-<%= form_tag("/starter_requests", method: "post", remote: true, style: "width: 300px; float: left") do %>
-  <h1>What<h1/>
-  <h1>Now?</h1>
+    <div class="form-group">
+      <div class="input-group">
+        <span class="input-group-addon"><%= fa_icon "user" %></span>
+        <%= text_field_tag :name, nil, class: "form-control", placeholder: "#{I18n.t 'flow.challenge.action_form.name'}" %>
+      </div>
+    </div>
 
-  <p>
-  Knowing how to start following 
-  Jesus isn’t always clear, which 
-  is why we created a free Spiritual 
-  Starter Kit.</p>
+    <div class="form-group">
+      <div class="input-group">
+        <span class="input-group-addon">@</span>
+        <%= email_field_tag :name, nil, class: "form-control", placeholder: "#{I18n.t 'flow.challenge.action_form.email'}" %>
+      </div>
+    </div>
 
-  <p>The kit includes…</p>
+    <div class="form-group">
+      <%= submit_tag "#{I18n.t 'flow.challenge.action_form.button'}", class: "btn btn-block btn-lg btn-default" %>
+    </div>
+  <% end %>
 
-  <div id="starter_fields">
-    <%= label(:name, "Name") %>
-    <%= text_field_tag(:name) %>
-    <br/>
-    <%= label(:email, "Email") %>
-    <%= text_field_tag(:email) %>
-  </div>
-  <%= submit_tag "Get my free Spiritual Starter Kit" %>
-<% end %>
+  <%= form_tag "/starter_requests", method: "post", remote: true, class: "col-md-6" do %>
+    <h2 class="blue"><%= I18n.t 'flow.challenge.invite.title' %></h2>
 
-<%= form_tag("/starter_requests", method: "post", remote: true, style: "width: 300px; float: left") do %>
-  <h1>Invite A<h1/>
-  <h1>Friend</h1>
+    <p>
+      <%= I18n.t 'flow.challenge.invite.text1' %>
+    </p>
 
-  <p>Do you have a Christian friend you 
-  know and trust?</p>
+    <p>
+      <%= I18n.t 'flow.challenge.invite.text2' %>
+    </p>
 
-  <p>Invite them to receive our free 
-  Spiritual Starter Kit so they can help 
-  you along the way.</p>
-
-<% end %>
+    <h2 class="text-left gray">
+      <a href="#"><%= fa_stacked_icon "facebook", base: "circle-o" %></a>
+      <a href="#"><%= fa_stacked_icon "envelope", base: "circle-o" %></a>
+    </h2>
+  <% end %>
+</div>

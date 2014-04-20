@@ -1,0 +1,19 @@
+<%= content_for :page_title, "#{t 'seperator'} #{t 'language.page_title'}" %>
+<%= content_for :page, 'short' %>
+
+<div class="profile">
+	<h3 class="blue"><%= t 'language.title' %></h3>
+	<% Language.order(:name).all.each_slice((Language.count / 3.0).ceil) do |locale_group| %>
+		<div class="col-md-4">
+			<ul class="f32">
+				<% locale_group.each do |locale| %>
+					<% if locale.active? %>
+						<li><a href="#"><i class="flag <%= locale.country.downcase %>"></i><%= locale.name %></a></li>
+					<% else %>
+						<li><a class="inactive"><i class="flag <%= locale.country.downcase %>"></i><%= locale.name %></a></li>
+					<% end %>
+				<% end %>
+			</ul>
+		</div>
+	<% end %>
+</div>

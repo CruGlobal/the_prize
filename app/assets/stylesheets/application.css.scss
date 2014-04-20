@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import "font-awesome";
+@import "flag-icon";
 
 body {
 	font-family: "proxima-nova",sans-serif;
@@ -79,21 +80,80 @@ p {
 		}
 	}
 }
-
+ul {
+	list-style: none;
+}
 footer {
 	padding: 100px 0;
 	text-align: center;
 	margin-top: 50px;
 }
 
-.navbar {
+.lowercase {
+	text-transform: lowercase;
+}
+.inactive {
+	color: #ccc;
+	&:hover {
+		color: #ccc;
+	}
+}
+.f16 {
+	.flag {
+	  height: 16px;
+	  width:16px;
+	  float:left;
+	  margin-top:2px;
+	  margin-right:5px;
+	}
+}
+.f32 {
+	li a {
+		font-size: 25px;
+		line-height: 40px;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	.flag {
+	  height:32px;
+	  width:32px;
+	  float:left;
+	  margin-top:2px;
+	  margin-right:10px;
+	}
+}
+
+.navbar-default {
 	border-radius: 0;
 	border:0;
 	background: transparent;
+	.flag {
+	  margin-top:12px;
+	}
 	.navbar-brand {
 		color: #09538B;
 	}
 	.navbar-nav {
+		.open {
+			background: transparent;
+			.dropdown-toggle {
+				color: white;
+				background: transparent;
+				&:focus, &:hover {
+					background: transparent;
+				}
+			}
+			.dropdown-menu {
+				left: 0;
+				a {
+					color: #09538B;
+					&:hover {
+						background: transparent;
+					}
+				}
+			}
+		}
 		li > a {
 			color: #09538B;
 			line-height: 39px;

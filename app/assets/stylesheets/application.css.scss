@@ -131,6 +131,7 @@ footer {
 }
 
 .navbar-default {
+	height: 64px;
 	border-radius: 0;
 	border:0;
 	background: transparent;
@@ -237,7 +238,6 @@ footer {
 }
 .home {
 	.navbar {
-		height: 64px;
 		transition: background-color 500ms ease-out;
 		background-color: rgba(0,0,0,0.0);
 		.navbar-brand {
@@ -357,6 +357,7 @@ footer {
 	.halt {
 		position: fixed;
 		bottom:0;
+		top: 64px;
 		z-index: 1000;
 	}
 	h1, h2, h3, h4, h5 {

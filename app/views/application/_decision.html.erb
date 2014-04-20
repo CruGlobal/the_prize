@@ -1,14 +1,14 @@
-<%= content_for :page_title, "#{t 'seperator'} #{t 'flow.more.page_title'}" %>
-<h4 class="blue"><%= t 'flow.more.title' %></h4>
+<%= content_for :page_title, "#{t 'seperator'} #{t 'flow.decision.page_title'}" %>
+<h4 class="blue"><%= t 'flow.decision.title' %></h4>
 <div class="video-container">
-  <div id="ytplayer" data-video_id='bM5aISQiHOI'></div>
+	<iframe id="player" width="500" height="281" src="<%= t 'flow.decision.video_url'.html_safe %>" frameborder="0" allowfullscreen=""></iframe>
 	<div class="halt">
-		<h3><%= t 'flow.more.question' %></h3>
+		<h3><%= t 'flow.decision.question' %></h3>
 		<div class="row">
 			<div class="col-md-4 col-md-offset-4">
-				<a href="<%= page_path('flow/challenge') %>" class="btn btn-lg btn-default btn-block"><%= t 'flow.more.answer1' %></a>
-				<a href="<%= page_path('flow/thanks') %>" class="btn btn-lg btn-default btn-block"><%= t 'flow.more.answer2' %></a>
-				<a href="<%= page_path('flow/christian') %>" class="btn btn-lg btn-default btn-block"><%= t 'flow.more.answer3' %></a>
+				<a href="<%= page_path('flow/challenge') %>" class="btn btn-lg btn-default btn-block"><%= t 'flow.decision.answer1' %></a>
+				<a href="<%= page_path('flow/thanks') %>" class="btn btn-lg btn-default btn-block"><%= t 'flow.decision.answer2' %></a>
+				<a href="<%= page_path('flow/christian') %>" class="btn btn-lg btn-default btn-block"><%= t 'flow.decision.answer3' %></a>
 			</div>
 		</div>
 	</div>

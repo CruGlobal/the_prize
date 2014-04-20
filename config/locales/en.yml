@@ -29,7 +29,7 @@ en:
       answer3: I want to start
       answer4: I'm already a Christian
       question: Do you want to start following Jesus?
-    more:
+    decision:
       answer1: 'Yes'
       answer2: 'No'
       answer3: I'm already a Christian

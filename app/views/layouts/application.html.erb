@@ -34,16 +34,17 @@
 					<li class="<%= is_active? page_path('the_stars') %>"><%= link_to t('menu.the_stars'), page_path('the_stars/kaka') %></li>
 					<li class="<%= is_active? page_path('resources') %>"><%= link_to t('menu.resources'), page_path('resources') %></li>
 					<% if locale_menu.empty? %>
-						<li class="f16"><a href="<%= page_path('language') %>"><i class="flag <%= current_locale.country.downcase %>"></i><%= current_locale.name %></a></li>
+						<li class="f16"><a href="<%= page_path('language') %>"><i class="flag <%= current_language.country.downcase %>"></i><%= current_language.name %></a></li>
 					<% else %>
 						<li class="dropdown <%= is_active? page_path('language') %>">
-							<a href="#" class="dropdown-toggle f16" data-toggle="dropdown"><i class="flag <%= current_locale.country.downcase %>"></i><%= current_locale.name %></a>
-		          <ul class="dropdown-menu f16">
+							<a href="#" class="dropdown-toggle f16" data-toggle="dropdown"><i class="flag <%= current_language.country.downcase %>"></i><%= current_language.name %></a>
+		          <ul class="dropdown-menu f16 locale_menu">
 		          	<% locale_menu.each do |locale| %>
-		            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="flag <%= locale.country.downcase %>"></i><%= current_locale.name %></a></li>
+                  <!-- data-no-turbolink is not working -->
+                  <li><a onClick="window.location.href = $(this).attr('href');" href="<%= url_for(params.merge(:locale => locale.locale)) %>" class="dropdown-toggle" data-toggle="dropdown"><i class="flag <%= locale.country.downcase %>"></i><%= locale.country %></a></li>
 		            <% end %>
 		            <li class="divider"></li>
-		            <li><a href="#">See All Countries</a></li>
+		            <li><a href="/pages/languages">See All Countries</a></li>
 		          </ul>
 						</li>
 	        <% end %>

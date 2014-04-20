@@ -61,7 +61,7 @@ ready = function() {
     window.onYouTubeIframeAPIReady = function () {
       $('body').addClass('video');
       YTplayer = new YT.Player('ytplayer', {
-        videoId: 'bM5aISQiHOI',
+        videoId: $('#ytplayer').data('video_id'),
         playerVars: {
           autoplay: 1,
           modestbranding: 1,

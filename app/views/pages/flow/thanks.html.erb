@@ -1,10 +1,10 @@
-<%= content_for :page_title, "#{I18n.t 'seperator'} #{I18n.t 'flow.thanks.page_title'}" %>
+<%= content_for :page_title, "#{t 'seperator'} #{t 'flow.thanks.page_title'}" %>
 <%= content_for :page, 'short' %>
 <div class="profile">
-	<h2><%= I18n.t 'flow.thanks.title' %></h2><h4 class="blue"><%= I18n.t 'flow.thanks.subtitle' %></h4>
+	<h2><%= t 'flow.thanks.title' %></h2><h4 class="blue"><%= t 'flow.thanks.subtitle' %></h4>
 </div>
 <div class="row">
 	<div class="col-md-12 text-center">
-		<%= I18n.t('flow.thanks.text_html', :href => link_to( I18n.t("flow.thanks.text_link"), I18n.t("flow.thanks.text_url"), :target => "_blank")).html_safe %>
+		<%= t('flow.thanks.text_html', :href => link_to( t("flow.thanks.text_link"), t("flow.thanks.text_url"), :target => "_blank")).html_safe %>
 	</div>
 </div>

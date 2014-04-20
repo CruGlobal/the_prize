@@ -49,6 +49,7 @@ group :development do
   gem 'byebug'
   gem 'pry'
   gem 'pry-debugger'
+  gem 'localeapp'
 end
 
 group :development, :test do

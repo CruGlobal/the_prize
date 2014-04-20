@@ -15,6 +15,10 @@ h1 {
 	font-size: 72px;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 .btn {
 	border-radius: 0;
 	&.btn-default {

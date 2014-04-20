@@ -1,0 +1,19 @@
+<%= content_for :page_title, "#{t 'seperator'} #{t 'menu.resources'}" %>
+<%= content_for :page, 'short' %>
+<div class="text-center">
+	<div class="col-sm-4">
+		<h2 class="blue"><%= t 'resources.dvd.title' %></h2>
+		<a href="http://aiagear.com/c-35-dvds.aspx" target="_blank"><%= t 'resources.dvd.subtitle' %><%= image_tag "dvd-cover.jpg", class: "img-responsive" %></a>
+	</div>
+	<div class="col-sm-4">
+		<h2 class="blue"><%= t 'resources.jesusfilm_app.title' %></h2>
+		<a href="http://app.jesusfilmmedia.org/#" target="_blank"><%= t 'resources.jesusfilm_app.subtitle' %><%= image_tag "jesus-film-app.jpg", class: "img-responsive" %></a>
+	</div>
+	<div class="col-sm-4">
+		<h2 class="blue"><%= t 'resources.bible_studies.title' %></h2>
+		<br>
+		<a href="/resources/AIA_ThePrize_StarterGuide.pdf" target="_blank" class="btn btn-block btn-lg btn-default"><%= t 'resources.bible_studies.question_guide' %></a>
+		<a href="/resources/AIA_ThePrize_LeaderGuides.zip" target="_blank" class="btn btn-block btn-lg btn-default"><%= t 'resources.bible_studies.leader_guides' %></a>
+		<a href="/resources/AIA_ThePrize_StudentGuides.zip" target="_blank" class="btn btn-block btn-lg btn-default"><%= t 'resources.bible_studies.student_guides' %></a>
+	</div>
+</div>

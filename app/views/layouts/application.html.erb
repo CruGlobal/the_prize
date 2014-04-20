@@ -33,7 +33,7 @@
 					<li class="<%= is_active? page_path('the_stars') %>"><%= link_to t('menu.the_stars'), page_path('the_stars/kaka') %></li>
 					<li class="<%= is_active? page_path('dvd') %>"><%= link_to t('menu.dvd'), page_path('dvd') %></li>
 					<% if locale_menu.empty? %>
-						<li class="<%= is_active? page_path('language') %> f16"><a href="<%= page_path('language') %>"><i class="flag <%= current_locale.country.downcase %>"></i><%= current_locale.name %></a></li>
+						<li class="f16"><a href="<%= page_path('language') %>"><i class="flag <%= current_locale.country.downcase %>"></i><%= current_locale.name %></a></li>
 					<% else %>
 						<li class="dropdown <%= is_active? page_path('language') %>">
 							<a href="#" class="dropdown-toggle f16" data-toggle="dropdown"><i class="flag <%= current_locale.country.downcase %>"></i><%= current_locale.name %></a>

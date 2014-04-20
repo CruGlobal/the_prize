@@ -1,7 +1,7 @@
 <%= content_for :page_title, "#{I18n.t 'seperator'} #{I18n.t 'flow.more.page_title'}" %>
 <h4 class="blue"><%= I18n.t 'flow.more.title' %></h4>
 <div class="video-container">
-	<iframe id="vimeo" width="500" height="281" src="//player.vimeo.com/video/90343478?api=1&amp;autoplay=false&amp;player_id=vimeo" frameborder="0" allowfullscreen=""></iframe>
+  <div id="ytplayer" videoId='bM5aISQiHOI'> </div>
 	<div class="halt">
 		<h3><%= I18n.t 'flow.more.question' %></h3>
 		<div class="row">
@@ -13,3 +13,38 @@
 		</div>
 	</div>
 </div>
+
+<script>
+  var onPlayerStateChange = function (evt) {
+    switch (evt.data) {
+      case YT.PlayerState.ENDED:
+        console.log('player ended');
+        video_completed = true;
+        break;
+    }
+  }
+
+  var tag = document.createElement('script');
+  var title = document.title;
+  tag.src = "//www.youtube.com/iframe_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  window.onYouTubeIframeAPIReady = function () {
+    $('body').addClass('video');
+    YTplayer = new YT.Player('ytplayer', {
+      videoId: 'bM5aISQiHOI',
+      playerVars: {
+        autoplay: 1,
+        modestbranding: 1,
+        rel: 0,
+        showinfo: 0,
+        iv_load_policy: 3,
+        html5: 1,
+      },
+      events: {
+        'onStateChange': onPlayerStateChange
+      }
+    });
+  };
+</script>

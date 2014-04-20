@@ -27,6 +27,14 @@ function onFinish(id) {
 
 var ready;
 ready = function() {
+  $(document).scroll(function() {
+    if (window.pageYOffset != 0) {
+      $('.navbar').addClass('scroll');
+    } else {
+      $('.navbar').removeClass('scroll');
+    }
+  });
+
 	var iframe = $('#player')[0];
 	
   if (iframe !== undefined) {

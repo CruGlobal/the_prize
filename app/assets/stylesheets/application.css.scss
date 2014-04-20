@@ -4,6 +4,7 @@
 
 body {
 	font-family: "proxima-nova",sans-serif;
+	padding-top: 80px;
 }
 
 .content {
@@ -52,7 +53,7 @@ h1, h2, h3, h4, h5 {
 	}
 	&.header {
 		line-height: 60px;
-		padding: 40px 80px;
+		padding: 40px 40px;
 		text-transform: none;
 	}
 }
@@ -159,10 +160,12 @@ footer {
 			color: #09538B;
 			line-height: 39px;
 			text-transform: uppercase;
+			padding-bottom: 10px;
 			&:hover {
 				color: #7DC4F9;
 			}
 			&.social {
+				display: inline-block;
 				padding-left: 5px;
 				padding-right: 0;
 			}
@@ -175,7 +178,6 @@ footer {
 			border-bottom: 5px solid #09538B;
 			color: #09538B;
 			padding-bottom: 5px;
-			margin-bottom: 10px;
 			&:hover {
 				color: #7DC4F9;
 				background: transparent;
@@ -184,6 +186,14 @@ footer {
 	}
 }
 
+.scroll {
+	background: #dcdede;
+}
+
+.home .navbar.scroll {
+	background: #000;
+	background: rgba(0,0,0,0.7);
+}
 
 .background {
 	position: absolute;
@@ -223,6 +233,9 @@ footer {
 }
 .home {
 	.navbar {
+		height: 64px;
+		transition: background-color 500ms ease-out;
+		background-color: rgba(0,0,0,0.0);
 		.navbar-brand {
 			color: #fff;
 		}
@@ -242,7 +255,7 @@ footer {
 		}
 	}
 	.background {
-		background: image-url('football-stadium.jpg') center -600px no-repeat;
+		background: image-url('football-stadium.jpg') center bottom no-repeat;
 	}
 
 	.navbar-inverse {
@@ -279,5 +292,98 @@ footer {
 	        box-shadow: 0 10px 24px -6px black;
 	iframe, object, embed {
 		position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+	}
+}
+
+// col-xs
+@media (max-width: 767px) {
+	footer {
+		padding: 20px 0;
+	}
+	.navbar-default .navbar-nav {
+		border-top: 1px solid #ccc;
+		background: #dcdede;
+		.flag {
+			float: none;
+			display: inline-block;
+			margin-top: 0;
+		}
+		li {
+			text-align: center;
+			a {
+				line-height: inherit;
+			}
+			&.active > a {
+				border-bottom: 0;
+				color: #7DC4F9;
+			}
+		}
+	}
+	.navbar-toggle {
+		border:0;
+		margin-top: 15px;
+	}
+	.home {
+		footer {
+			margin-top: 10px;
+		}
+		.navbar {
+			.navbar-toggle .icon-bar {
+				background-color: #fff;
+			}
+			.navbar-nav {
+				li {
+					a {
+						color: #09538B;
+						.fa-inverse {
+							color: white;
+						}
+					}
+					&.active > a {
+						border-bottom: 0;
+						color: #7DC4F9;
+					}
+				}
+			}
+		}
+	}
+	.navbar-default .navbar-collapse {
+		border: 0;
+	}
+	.halt {
+		position: fixed;
+		bottom:0;
+		z-index: 1000;
+	}
+	h1, h2, h3, h4, h5 {
+		&.header {
+			line-height: 40px;
+		}
+	}
+	.background {
+		height: 457px;
+		background: image-url('football-stadium-mobile-gray.png') center top no-repeat;
+		background-size: contain;
+	}
+	.short .background {
+		background-size: cover;
+	}
+	.home {
+		.background {
+			background: image-url('football-stadium-mobile.jpg') center top no-repeat;
+			background-size: contain;
+		}
+	}
+}
+// col-sm
+@media (min-width: 768px) and (max-width: 991px) {
+	.background {
+		height: 480px;
+	}
+}
+// col-md
+@media (min-width: 992px) and (max-width: 1200px) {
+	.background {
+		height: 510px;
 	}
 }

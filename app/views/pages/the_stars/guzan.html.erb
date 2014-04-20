@@ -1,15 +1,15 @@
-<%= content_for :page_title, "#{I18n.t 'seperator'} #{I18n.t 'the_stars.guzan.name'}" %>
+<%= content_for :page_title, "#{t 'seperator'} #{t 'the_stars.guzan.name'}" %>
 <div class="video-container" style="background-image: url(<%= image_url('guzan-profile.jpg') %>); background-size: cover;"></div>
 <%= render 'stars_menu' %>
 <hr>
 <div class="profile">
-	<h1 class="blue"><%= I18n.t 'the_stars.guzan.name' %></h1><h3><%= I18n.t 'the_stars.guzan.country' %></h3>
+	<h1 class="blue"><%= t 'the_stars.guzan.name' %></h1><h3><%= t 'the_stars.guzan.country' %></h3>
 	<div class="row">
 		<div class="col-md-6">
-			<p><%= I18n.t 'the_stars.guzan.col1' %></p>
+			<p><%= t 'the_stars.guzan.col1' %></p>
 		</div>
 		<div class="col-md-6">
-			<p><%= I18n.t 'the_stars.guzan.col2' %></p>
+			<p><%= t 'the_stars.guzan.col2' %></p>
 			<h2 class="text-left gray"><%= fa_stacked_icon "twitter", base: "circle-o" %><%= fa_stacked_icon "instagram", base: "circle-o" %></h2>
 		</div>
 	</div>

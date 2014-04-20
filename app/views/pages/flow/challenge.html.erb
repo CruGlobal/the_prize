@@ -1,47 +1,47 @@
-<%= content_for :page_title, "#{I18n.t 'seperator'} #{I18n.t 'flow.challenge.page_title'}" %>
+<%= content_for :page_title, "#{t 'seperator'} #{t 'flow.challenge.page_title'}" %>
 <%= content_for :page, 'short' %>
 <div class="profile">
-  <h2><%= I18n.t 'flow.challenge.title' %></h2><h4 class="blue"><%= I18n.t 'flow.challenge.subtitle' %></h4>
+  <h2><%= t 'flow.challenge.title' %></h2><h4 class="blue"><%= t 'flow.challenge.subtitle' %></h4>
 </div>
 <div class="col-md-10 col-md-offset-1 challenge">
   <%= form_tag "/starter_requests", method: "post", remote: true, class: "col-md-6", role:"form" do %>
-    <h2 class="blue"><%= I18n.t 'flow.challenge.action_form.title' %></h2>
+    <h2 class="blue"><%= t 'flow.challenge.action_form.title' %></h2>
     <p>
-      <%= I18n.t 'flow.challenge.action_form.text1' %>
+      <%= t 'flow.challenge.action_form.text1' %>
     </p>
 
     <p>
-      <%= I18n.t 'flow.challenge.action_form.text2' %>
+      <%= t 'flow.challenge.action_form.text2' %>
     </p>
 
     <div class="form-group">
       <div class="input-group">
         <span class="input-group-addon"><%= fa_icon "user" %></span>
-        <%= text_field_tag :name, nil, class: "form-control", placeholder: "#{I18n.t 'flow.challenge.action_form.name'}" %>
+        <%= text_field_tag :name, nil, class: "form-control", placeholder: "#{t 'flow.challenge.action_form.name'}" %>
       </div>
     </div>
 
     <div class="form-group">
       <div class="input-group">
         <span class="input-group-addon">@</span>
-        <%= email_field_tag :name, nil, class: "form-control", placeholder: "#{I18n.t 'flow.challenge.action_form.email'}" %>
+        <%= email_field_tag :name, nil, class: "form-control", placeholder: "#{t 'flow.challenge.action_form.email'}" %>
       </div>
     </div>
 
     <div class="form-group">
-      <%= submit_tag "#{I18n.t 'flow.challenge.action_form.button'}", class: "btn btn-block btn-lg btn-default" %>
+      <%= submit_tag "#{t 'flow.challenge.action_form.button'}", class: "btn btn-block btn-lg btn-default" %>
     </div>
   <% end %>
 
   <%= form_tag "/starter_requests", method: "post", remote: true, class: "col-md-6" do %>
-    <h2 class="blue"><%= I18n.t 'flow.challenge.invite.title' %></h2>
+    <h2 class="blue"><%= t 'flow.challenge.invite.title' %></h2>
 
     <p>
-      <%= I18n.t 'flow.challenge.invite.text1' %>
+      <%= t 'flow.challenge.invite.text1' %>
     </p>
 
     <p>
-      <%= I18n.t 'flow.challenge.invite.text2' %>
+      <%= t 'flow.challenge.invite.text2' %>
     </p>
 
     <h2 class="text-left gray">

@@ -1,7 +1,7 @@
 <%= content_for :page_title, "#{t 'seperator'} #{t 'flow.decision.page_title'}" %>
 <h4 class="blue"><%= t 'flow.decision.title' %></h4>
 <div class="video-container">
-	<iframe id="player" width="500" height="281" src="<%= t 'flow.decision.video_url'.html_safe %>" frameborder="0" allowfullscreen=""></iframe>
+	<div id="ytplayer" data-video_id="<%= t 'flow.decision.video_id'.html_safe %>"></div>
 	<div class="halt">
 		<h3><%= t 'flow.decision.question' %></h3>
 		<div class="row">

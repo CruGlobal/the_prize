@@ -24,6 +24,12 @@ function onHalt(id) {
 function onFinish(id) {
   $('.halt').fadeIn();
 }
+function onPlayProgress(data) {
+  if (data.seconds > 1520) {
+    player.api('pause');
+    onFinish();
+  }
+}
 
 var ready;
 ready = function() {
@@ -45,6 +51,7 @@ ready = function() {
       player.addEvent('pause', onHalt);
       player.addEvent('finish', onFinish);
       player.addEvent('play', onResume);
+      player.addEvent('playProgress', onPlayProgress);
     });
 
   }

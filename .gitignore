@@ -81,3 +81,4 @@ pickle-email-*.html
 
 notes.txt
 config/initializers/0_setup_env.rb
+.localeapp

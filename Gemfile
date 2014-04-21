@@ -34,6 +34,7 @@ gem 'high_voltage'
 gem 'font-awesome-rails'
 gem 'rest-client'
 gem 'rack-timeout'
+gem 'localeapp'
 
 group :development do
   gem 'better_errors'
@@ -51,7 +52,6 @@ group :development do
   gem 'byebug'
   gem 'pry'
   gem 'pry-debugger'
-  gem 'localeapp'
 end
 
 group :development, :test do
@@ -59,6 +59,7 @@ group :development, :test do
   gem 'pry-rails'
   gem 'pry-rescue'
   gem 'rspec-rails'
+  gem 'dotenv-rails'
 end
 
 group :test do

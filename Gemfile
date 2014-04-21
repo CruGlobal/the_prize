@@ -35,9 +35,9 @@ gem 'high_voltage'
 gem 'font-awesome-rails'
 gem 'rest-client'
 gem 'rack-timeout'
-gem 'localeapp'
 
 group :development do
+  gem 'localeapp'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'meta_request'

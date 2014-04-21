@@ -65,7 +65,7 @@ lolcat:
   home:
     meet_the_stars: MEET TEH STARS
     title: WATCH HOW 5 STARS DEAL WIF UNBELIEVABLE PRESUREZ OV TEH GAME AN LIFE.
-    video_url: "//PLAYR.VIMEO.COM/VIDEO/90343478?API=1"
+    video_url: "//player.vimeo.com/video/90343478?api=1&autoplay=false&player_id=player"
   resources:
     dvd:
       title: DVD

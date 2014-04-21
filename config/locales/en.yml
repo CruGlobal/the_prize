@@ -9,11 +9,11 @@ en:
         button: Get my free Spiritual Starter Kit
         email: Email
         name: Name
+        received: Kit request received!  You should receive an email confirmation shortly.
+        submitting: Submitting kit request...
         text1: Knowing how to start following Jesus isn’t always clear, which is why we created a free Spiritual Starter Kit.
         text2: The kit includes…
         title: What Now?
-        submitting: Submitting kit request...
-        received: Kit request received!  You should receive an email confirmation shortly.
       invite:
         text1: Do you have a Christian friend you know and trust?
         text2: Invite them to receive our free Spiritual Starter Kit so they can help you along the way.
@@ -25,12 +25,6 @@ en:
       page_title: Share
       subtitle: Share this with your friends now
       title: That's Awesome
-    home:
-      answer1: 'No'
-      answer2: I want to know more
-      answer3: I want to start
-      answer4: I'm already a Christian
-      question: Do you want to start following Jesus?
     decision:
       answer1: 'Yes'
       answer2: 'No'
@@ -39,6 +33,19 @@ en:
       question: Did you pray to begin a relationship with God?
       title: Watch Bosco explain what it means to follow Jesus. Is this what you want?
       video_id: bM5aISQiHOI
+    home:
+      answer1: 'No'
+      answer2: I want to know more
+      answer3: I want to start
+      answer4: I'm already a Christian
+      question: Do you want to start following Jesus?
+    more:
+      answer1: 'Yes'
+      answer2: 'No'
+      answer3: I'm already a Christian
+      page_title: More Info
+      question: Did you pray to begin a relationship with God?
+      title: Watch Bosco explain what it means to follow Jesus. Is this what you want?
     thanks:
       page_title: Thanks
       subtitle: You have told us that you don't want to follow Jesus
@@ -51,28 +58,29 @@ en:
   home:
     meet_the_stars: Meet The Stars
     title: Watch how five stars deal with unbelievable pressures of the game and life.
-    video_url: //player.vimeo.com/video/90343478?api=1&autoplay=false&player_id=player
-  resources:
-    dvd:
-      title: DVD
-      subtitle: DVD - 35 Language NTSC / PAL
-    jesusfilm_app:
-      title: JesusFilm App
-      subtitle: Jesus Film app on iOS & Android
-    bible_studies:
-      title: Bible Studies
-      question_guide: Question Starter Guide
-      leader_guides: Leader Guides
-      student_guides: Student Guides
+    video_url: "//player.vimeo.com/video/90343478?api=1&autoplay=false&player_id=player"
   language:
     page_title: Language
     title: Select your Country
   menu:
     about: About
-    resources: Resources
+    dvd: DVD
     home: Home
-    the_stars: The Stars
+    resources: Resources
     see_all: See All
+    the_stars: The Stars
+  resources:
+    bible_studies:
+      leader_guides: Leader Guides
+      question_guide: Question Starter Guide
+      student_guides: Student Guides
+      title: Bible Studies
+    dvd:
+      subtitle: DVD - 35 Language NTSC / PAL
+      title: DVD
+    jesusfilm_app:
+      subtitle: Jesus Film app on iOS & Android
+      title: JesusFilm App
   seperator: "-"
   the_stars:
     caucau:

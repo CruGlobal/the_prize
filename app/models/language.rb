@@ -3,7 +3,7 @@ class Language < ActiveRecord::Base
 	validates_presence_of :name, :code, :country
 	
 	def set_locale
-		self.locale = "#{self.code}-#{self.country}"
+		self.locale ||= "#{self.code}-#{self.country}"
 	end
 
 	def country=(c)

@@ -1,7 +1,7 @@
 <%= content_for :page_title, "#{t 'seperator'} #{t 'language.page_title'}" %>
 <%= content_for :page, 'short' %>
 
-<div class="profile" data-no-turbolink>
+<div class="profile">
   <h3 class="blue"><%= t 'language.title' %></h3>
   <% Language.order(:name).all.each_slice((Language.count / 3.0).ceil) do |locale_group| %>
     <div class="col-md-4">

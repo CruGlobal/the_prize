@@ -4,9 +4,6 @@ def translate_to_lolcat(s)
   if s =~ /<%/
     puts "Skipping ERB: #{s}"
     return s
-  elsif s =~ /player.vimeo.com/
-    puts "Keeping video_url"
-    return s
   else
     #ps = s.gsub(' ','+')
     ps2 = URI::encode(s)
@@ -34,8 +31,12 @@ def translate_hash_to_lolcat(h)
     elsif v.is_a?(Hash)
       new_v = translate_hash_to_lolcat(v)
     else
-      puts "key #{k}"
-      new_v = translate_to_lolcat(v)
+      puts "key: #{k}"
+      if k =~ /video_id|video_url/
+        new_v = v
+      else
+        new_v = translate_to_lolcat(v)
+      end
     end
 
     new_k = (k == "en" ? "lolcat" : k)

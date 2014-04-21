@@ -71,4 +71,5 @@ group :production do
   gem 'rails_12factor'
   gem 'memcachier'
   gem 'dalli'
+  gem 'heroku_rails_deflate'
 end

@@ -6,6 +6,8 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+Encoding.default_external = Encoding::UTF_8
+
 module Theprize
   class Application < Rails::Application
 
@@ -34,5 +36,7 @@ module Theprize
     config.i18n.default_locale = "en-US".to_sym
 
     config.i18n.fallbacks = {'en-US' => 'en'}
+
+    config.encoding = "utf-8"
   end
 end

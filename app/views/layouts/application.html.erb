@@ -6,6 +6,7 @@
 	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 	<%= csrf_meta_tags %>
 	<link href="<%= image_url("favicon.ico") %>" rel="shortcut icon" type="image/x-icon">
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 </head>
 <body class="<%= yield(:page) %>">
 	<div class="background"></div>
@@ -74,7 +75,6 @@
 	<script type="text/javascript" src="//use.typekit.net/nst6mhc.js"></script>
 	<script type="text/javascript" src="//a.vimeocdn.com/js/froogaloop2.min.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
 </body>
 </html>

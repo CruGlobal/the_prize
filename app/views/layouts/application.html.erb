@@ -44,7 +44,7 @@
                   <li><a onClick="window.location.href = $(this).attr('href');" href="<%= url_for(params.merge(:locale => locale.locale)) %>" class="dropdown-toggle" data-toggle="dropdown"><i class="flag <%= locale.country.downcase %>"></i><%= locale.country %></a></li>
 		            <% end %>
 		            <li class="divider"></li>
-		            <li><a href="/pages/languages">See All Countries</a></li>
+		            <li><a href="<%= page_path('language') %>"><%= t 'menu.see_all' %></a></li>
 		          </ul>
 						</li>
 	        <% end %>

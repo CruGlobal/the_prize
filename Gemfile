@@ -33,6 +33,7 @@ gem 'simple_form'
 gem 'high_voltage'
 gem 'font-awesome-rails'
 gem 'rest-client'
+gem 'rack-timeout'
 
 group :development do
   gem 'better_errors'
@@ -68,4 +69,6 @@ end
 
 group :production do
   gem 'rails_12factor'
+  gem 'memcachier'
+  gem 'dalli'
 end

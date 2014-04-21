@@ -4,7 +4,7 @@
   <h2><%= t 'flow.challenge.title' %></h2><h4 class="blue"><%= t 'flow.challenge.subtitle' %></h4>
 </div>
 <div class="col-md-10 col-md-offset-1 challenge">
-  <%= form_tag "/starter_requests", method: "post", remote: true, class: "col-md-6", role:"form" do %>
+  <%= form_tag "/starter_requests", method: "post", remote: true, class: "col-md-6", role:"form", onSubmit: '$("#status").show()' do %>
     <h2 class="blue"><%= t 'flow.challenge.action_form.title' %></h2>
     <p>
       <%= t 'flow.challenge.action_form.text1' %>
@@ -31,6 +31,10 @@
     <div class="form-group">
       <%= submit_tag "#{t 'flow.challenge.action_form.button'}", class: "btn btn-block btn-lg btn-default" %>
     </div>
+
+    <p id='status' style='display:none'>
+      <%= t 'flow.challenge.action_form.received' %>
+    </p>
   <% end %>
 
   <%= form_tag "/starter_requests", method: "post", remote: true, class: "col-md-6" do %>

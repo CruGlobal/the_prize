@@ -24,12 +24,19 @@ function onFinish(id) {
   $('.halt').fadeIn();
 }
 function onPlayProgress(data) {
-  /*
-  if (data.seconds > 1520) {
-    player.api('pause');
+  console.log('onPlayProgress');
+  if ($('#ytplayer').data('stop_after') !== undefined && 
+      YTplayer.getCurrentTime !== undefined && 
+      parseInt($('#ytplayer').data('stop_after')) <= YTplayer.getCurrentTime()) {
+    //player.api('pause');
+    YTplayer.pauseVideo();
     onFinish();
   }
-  */
+}
+
+function ytProgressPoll() {
+  onPlayProgress(null);
+  setTimeout(ytProgressPoll, 1000);
 }
 
 var ready;
@@ -90,6 +97,7 @@ ready = function() {
           'onStateChange': onPlayerStateChange
         }
       });
+      ytProgressPoll();
     };
   }
 };

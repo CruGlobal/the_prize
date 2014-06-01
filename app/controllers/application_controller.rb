@@ -29,8 +29,10 @@ class ApplicationController < ActionController::Base
   end
 
   # returns an descending ranked array of language preferences in IS0-639-1
-  # parse('en-US,en-GB;q=0.9,es-MX;q=0.8,de-DE;q=0.7') 
-  # => [:en, :en, :es, :de]
+  # if request.env['HTTP_ACCEPT_LANGUAGES'] is ('en-US,en-GB;q=0.9,es-MX;q=0.8,de-DE;q=0.7') 
+  # it will return [:en, :en, :es, :de]
+  # 
+  # This method is based off code from http_accept_language gem
   # 
   # I decided to use this instead of http_accept_language because that gem is 
   # rack only, and I don't know how to use or debug those type of gems. -AR

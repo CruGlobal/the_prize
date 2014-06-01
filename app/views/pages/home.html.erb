@@ -1,7 +1,7 @@
 <%= content_for :page_title, "#{t 'seperator'} #{t 'menu.home'}" %>
 <%= content_for :page, 'home' %>
 <div class="video-container">
-	<iframe id="player" width="500" height="281" src="<%= t 'home.video_url' %>" frameborder="0" allowfullscreen=""></iframe>
+  <div id="ytplayer" data-video_id="<%= t('home.video_id') %>"></div>
 	<div class="halt">
 		<h3><%= t 'flow.home.question' %></h3>
 		<div class="col-md-4 col-md-offset-4">

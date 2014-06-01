@@ -24,10 +24,12 @@ function onFinish(id) {
   $('.halt').fadeIn();
 }
 function onPlayProgress(data) {
+  /*
   if (data.seconds > 1520) {
     player.api('pause');
     onFinish();
   }
+  */
 }
 
 var ready;

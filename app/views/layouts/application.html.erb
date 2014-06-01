@@ -35,7 +35,7 @@
 						<li class="f16"><a href="<%= page_path('language') %>"><i class="flag <%= current_language.country.try(:downcase) %>"></i><%= current_language.name %></a></li>
 					<% else %>
 						<li class="dropdown <%= is_active? page_path('language') %>">
-							<a href="#" class="dropdown-toggle f16" data-toggle="dropdown"><i class="flag <%= current_language.country.try(:downcase) %>"></i><%= current_language.name %></a>
+							<a href="#" class="dropdown-toggle f16" data-toggle="dropdown"><i class="flag <%= current_language.country.try(:downcase) %>"></i><%= current_language.name %> - Select Lang</a>
 		          <ul class="dropdown-menu f16 locale_menu">
 		          	<% locale_menu.each do |locale| %>
                   <li><a onClick="window.location.href = $(this).attr('href');" href="<%= url_for(params.merge(:locale => locale.locale)) %>" class="dropdown-toggle" data-toggle="dropdown"><i class="flag <%= locale.country.try(:downcase) %>"></i><%= locale.country || locale.name %></a></li>
@@ -46,9 +46,9 @@
 						</li>
 	        <% end %>
 					<li>
-						<a href="#" class="social"><%= fa_stacked_icon "facebook inverse", base: "circle" %></a>
-						<a href="#" class="social"><%= fa_stacked_icon "twitter inverse", base: "circle" %></a>
-						<a href="#" class="social"><%= fa_stacked_icon "google-plus inverse", base: "circle" %></a>
+						<a href="https://www.facebook.com/ThePrize" class="social"><%= fa_stacked_icon "facebook inverse", base: "circle" %></a>
+						<a href="https://twitter.com/theprizefilm" class="social"><%= fa_stacked_icon "twitter inverse", base: "circle" %></a>
+						<!--<a href="#" class="social"><%= fa_stacked_icon "google-plus inverse", base: "circle" %></a>-->
 					</li>
 				</ul>
 			</div><!-- /.navbar-collapse -->

@@ -24,7 +24,6 @@ function onFinish(id) {
   $('.halt').fadeIn();
 }
 function onPlayProgress(data) {
-  console.log('onPlayProgress');
   if ($('#ytplayer').data('stop_after') !== undefined && 
       YTplayer.getCurrentTime !== undefined && 
       parseInt($('#ytplayer').data('stop_after')) <= YTplayer.getCurrentTime()) {

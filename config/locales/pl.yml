@@ -1,9 +1,9 @@
-ru-RU:
+pl:
   about:
     col1: 
     col2: 
     title: 
-  english_name: 
+  english_name: Polish
   flow:
     challenge:
       action_form:
@@ -59,7 +59,7 @@ ru-RU:
   home:
     meet_the_stars: 
     title: 
-    video_id: 
+    video_id: pLGSUJHOkgk
     video_url: 
   km: 
   language:

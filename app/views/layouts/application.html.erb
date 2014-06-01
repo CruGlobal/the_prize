@@ -29,6 +29,7 @@
 					<li class="<%= is_active? root_path %>"><%= link_to t('menu.home'), root_path %></li>
 					<li class="<%= is_active? page_path('about') %>"><%= link_to t('menu.about'), page_path('about') %></li>
 					<li class="<%= is_active? page_path('the_stars') %>"><%= link_to t('menu.the_stars'), page_path('the_stars/kaka') %></li>
+					<li class="<%= is_active? page_path('falcao') %>"><%= link_to t('menu.falcao'), page_path('falcao') %></li>
 					<li class="<%= is_active? page_path('resources') %>"><%= link_to t('menu.resources'), page_path('resources') %></li>
 					<% if locale_menu.empty? %>
 						<li class="f16"><a href="<%= page_path('language') %>"><i class="flag <%= current_language.country.try(:downcase) %>"></i><%= current_language.name %></a></li>

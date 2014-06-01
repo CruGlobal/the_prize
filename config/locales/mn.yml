@@ -1,9 +1,9 @@
-ch-HK:
+mn:
   about:
     col1: 
     col2: 
     title: 
-  english_name: 
+  english_name: Mongolian
   flow:
     challenge:
       action_form:
@@ -59,7 +59,7 @@ ch-HK:
   home:
     meet_the_stars: 
     title: 
-    video_id: 
+    video_id: E7m91owrqxc
     video_url: 
   km: 
   language:

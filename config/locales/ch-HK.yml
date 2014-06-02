@@ -3,12 +3,15 @@ ch-HK:
     col1: 
     col2: 
     title: 
+  english_name: 
   flow:
     challenge:
       action_form:
         button: 
         email: 
         name: 
+        received: 
+        submitting: 
         text1: 
         text2: 
         title: 
@@ -23,6 +26,14 @@ ch-HK:
       page_title: 
       subtitle: 
       title: 
+    decision:
+      answer1: 
+      answer2: 
+      answer3: 
+      page_title: 
+      question: 
+      title: 
+      video_id: 
     home:
       answer1: 
       answer2: 
@@ -48,12 +59,33 @@ ch-HK:
   home:
     meet_the_stars: 
     title: 
+    video_id: 
+    video_url: 
+  km: 
+  language:
+    page_title: 
+    title: 
   menu:
     about: 
     dvd: 
     home: 
+    resources: 
+    see_all: 
     the_stars: 
+  resources:
+    bible_studies:
+      leader_guides: 
+      question_guide: 
+      student_guides: 
+      title: 
+    dvd:
+      subtitle: 
+      title: 
+    jesusfilm_app:
+      subtitle: 
+      title: 
   seperator: 
+  test: 
   the_stars:
     caucau:
       col1: 

@@ -3,7 +3,7 @@ es-ES:
     col1: 
     col2: 
     title: 
-  english_name: Spainish (Castilian)
+  english_name: 
   flow:
     challenge:
       action_form:
@@ -59,7 +59,7 @@ es-ES:
   home:
     meet_the_stars: 
     title: 
-    video_id: v9B-BBh8qFk
+    video_id: 
     video_url: 
   km: 
   language:

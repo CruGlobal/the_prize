@@ -34,17 +34,25 @@
 					<% if locale_menu.empty? %>
 						<li class="f16"><a href="<%= page_path('language') %>"><i class="flag <%= current_language.country.try(:downcase) %>"></i><%= current_language.name %></a></li>
 					<% else %>
+						<li class="f16"><a href="<%= page_path('language') %>"><i class="flag <%= current_language.country.try(:downcase) %>"></i><%= current_language.name %> - Select Lang</a></li>
+						<!--
 						<li class="dropdown <%= is_active? page_path('language') %>">
 							<a href="#" class="dropdown-toggle f16" data-toggle="dropdown"><i class="flag <%= current_language.country.try(:downcase) %>"></i><%= current_language.name %> - Select Lang</a>
-		          <ul class="dropdown-menu f16 locale_menu">
-		          	<% locale_menu.each do |locale| %>
-                  <li><a onClick="window.location.href = $(this).attr('href');" href="<%= url_for(params.merge(:locale => locale.locale)) %>" class="dropdown-toggle" data-toggle="dropdown"><i class="flag <%= locale.country.try(:downcase) %>"></i><%= locale.country || locale.name %></a></li>
-		            <% end %>
-		            <li class="divider"></li>
-		            <li><a href="<%= page_path('language') %>"><%= t 'menu.see_all' %></a></li>
-		          </ul>
+				          <ul class="dropdown-menu f16 locale_menu">
+				            <li class="f16"><a href="<%= page_path('language') %>"><i class="flag <%= current_language.country.try(:downcase) %>"></i><%= current_language.name %></a></li>
+				            <li><a onClick="window.location.href = $(this).attr('href');" href="/language" class="dropdown-toggle" data-toggle="dropdown">Select Language</a></li>
+				          	
+				          	<% locale_menu.each do |locale| %>		          
+		                    <li><a onClick="window.location.href = $(this).attr('href');" href="<%= url_for(params.merge(:locale => locale.locale)) %>" class="dropdown-toggle" data-toggle="dropdown"><i class="flag <%= locale.country.try(:downcase) %>"></i><%= locale.country || locale.name %></a></li>
+		                    
+				            <% end %>
+				            <li class="divider"></li>
+				            <li><a href="<%= page_path('language') %>"><%= t 'menu.see_all' %></a></li>
+				            
+				          </ul>
 						</li>
-	        <% end %>
+						-->
+	       			 <% end %>
 					<li>
 						<a href="https://www.facebook.com/ThePrize" class="social"><%= fa_stacked_icon "facebook inverse", base: "circle" %></a>
 						<a href="https://twitter.com/theprizefilm" class="social"><%= fa_stacked_icon "twitter inverse", base: "circle" %></a>

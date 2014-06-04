@@ -62,6 +62,67 @@ h1, h2, h3, h4, h5 {
 	}
 }
 
+.halt h3 {
+color: #fff;
+background-color: #000;	
+
+}
+
+.center img { display: block; margin-left: auto; margin-right: auto; }
+.center img {
+    max-width:100% !important;
+    height:auto;
+    display:block;
+}
+
+.line{
+  height:7px;	
+  border-bottom:1px solid #313030;
+  margin-bottom: 10px;
+}
+.orange { background:#f68933; }
+.blue { background:#0072ad; }
+.green { background:#009759; }
+.gray { background:#c9cbcc; }
+.red { background:#ef3e42; }
+.darker-blue { background:#00528d; }
+
+.orange-border { border-color:#f68933; }
+.blue-border { border-color:#0072ad; }
+.green-border { border-color:#009759; }
+.gray-border { border-color:#c9cbcc; }
+.red-border { border-color:#ef3e42; }
+.darker-blue-border { border-color:#00528d; }
+
+.playerswrapper { 
+  width: 100%;
+  height: 150px;
+  position: relative;
+}
+.bglines { 
+  width: 100%;
+  height: 100%;
+}
+.players {	
+  position: relative;
+  /*top: -170px;*/
+  left: 0;
+  z-index: 10;
+  width: 100%;
+}
+.players img {
+  margin-right: 10px;
+  border: solid 1px #000;
+}
+.center-container { 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  text-align: center;
+  width: 100%;
+  /*width: 705px;*/
+}
+
 p {
 	color: #282A2A;
 	font-size: 14px;
@@ -73,8 +134,8 @@ p {
 	a {
 		img {
 			width:100%;
-			border-radius: 100%;
-			border:10px solid #C5C6C6;
+			/*border-radius: 100%;*/
+			border:5px solid #C5C6C6;
 			transition : border 500ms ease-out; 
 		}
 		&:hover {
@@ -89,9 +150,9 @@ ul {
 	list-style: none;
 }
 footer {
-	padding: 100px 0;
+	padding: 60px 0;
 	text-align: center;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 	border-top: 1px solid #ccc;
 }
 
@@ -206,7 +267,8 @@ footer {
 	left:0;
 	right:0;
 	height: 600px;
-	background: #dcdede;
+	background: #dcdede;	
+	/*background: #000 image-url('soccerball1.jpg') center center no-repeat;*/
 }
 .short {
 	.background {
@@ -259,7 +321,15 @@ footer {
 		}
 	}
 	.background {
-		background: image-url('football-stadium.jpg') center bottom no-repeat;
+		/*background: image-url('football-stadium.jpg') center bottom no-repeat;*/
+		
+		  width:100%; 
+		  height: auto !important;
+		  background:#000 image-url('soccerball1.jpg') center center no-repeat;  
+		  background-size: cover;
+		  min-height: 100%;
+		  margin: 0 auto -117px;
+        	  padding: 0 0 117px;  
 	}
 
 	.navbar-inverse {
@@ -350,6 +420,10 @@ footer {
 			margin:10px 0;
 			padding:10px;
 		}
+		/*		
+		h3 {
+			font-size: 10px;
+		}*/
 		footer {
 			margin-top: 10px;
 		}
@@ -404,13 +478,90 @@ footer {
 }
 // col-sm
 @media (min-width: 768px) and (max-width: 991px) {
-	.background {
-		height: 480px;
-	}
+	.background { height: 480px; }
 }
 // col-md
 @media (min-width: 992px) and (max-width: 1200px) {
-	.background {
-		height: 510px;
-	}
+	.background { height: 510px; }
 }
+
+@media (max-width: 750px) {
+  .line{
+    height:4px;
+  }
+  .center-container img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Players */
+  .biowrapper {
+    width: 90%;
+    background-color:rgba(0, 0, 0, 0.5);
+  }
+  .player-action {
+    width: 45%; 
+  }
+  .player-action img {    
+    width: 100%;
+    height: 100%;
+  }
+  .bio p { font-size: 1.0em; }
+}
+@media (max-width: 615px) {
+  .line{
+    height:3px;
+    margin-bottom: 10px;
+  }
+  .center-container {padding-top:10px;}
+  .center-container img {
+    width: 85px;
+    height: 85px;
+  }
+}
+@media (max-width: 540px) {
+  .line{
+    height:3px;
+    margin-bottom: 10px;
+  }
+  .center-container {padding-top:10px;}
+  .center-container img {
+    width: 85px;
+    height: 85px;
+  }
+  .players img {
+    margin-right: 1px;
+  }
+  
+  /* Players */
+  .nameplate img { width:40%; height: auto; } 
+  .nameplate h2 { font-size:3em; }
+  .biowrapper {
+    width: 90%;
+    background-color:rgba(0, 0, 0, 0.5);
+  }  
+  .player-action {
+    width: 50%; 
+  }
+  .player-action img {    
+    width: 70%;
+    height: auto;
+  }
+  .player-social img {
+    width: 12%;
+    height: auto;
+  }
+  .bio p { display:none; font-size: 1.0em; }
+  .bio p.small-only { display: inline; }
+  
+  /* Resources */
+  .resources img {
+    width: 95%;
+    height: 95%;
+  }
+  
+  /* Global Page Header */
+  .page-header {margin: 0 5px 5px 5px;}
+  .page-header h1 {font-size: 3em; margin-top: 5px;}
+}
+

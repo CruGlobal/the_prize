@@ -85,7 +85,7 @@ ready = function() {
       YTplayer = new YT.Player('ytplayer', {
         videoId: $('#ytplayer').data('video_id'),
         playerVars: {
-          autoplay: 1,
+          autoplay: 0,
           modestbranding: 1,
           rel: 0,
           showinfo: 0,

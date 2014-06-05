@@ -1,115 +1,117 @@
 es:
   about:
-    col1: 
+    col1: Desde 1966, Atletas en Acción ha estado utilizando el deporte como una plataforma para ayudar a las personas responder a las preguntas de la fe y para señalarles a Jesús. Creemos que el deporte tiene el poder de abrir puertas y crear conexiones de una manera que pocas otras cosas pueden, y es por eso que estamos trabajando constantemente para crear nuevas formas de llegar a los atletas y aficionados a los deportes. A lo largo, nuestro objetivo es ver las vidas de las personas cambiar a medida que descubren el propósito de Dios para su vida.
     col2: 
     title: 
   english_name: Spanish
   flow:
     challenge:
       action_form:
-        button: 
-        email: 
-        name: 
-        received: 
-        submitting: 
-        text1: 
-        text2: 
-        title: 
+        button: Obten el Starter Kit Espiritual gratis
+        email: Email
+        name: Nombre
+        received: "¡Petición para el Kit recibido!  Pronto debes recibir una confirmación por Email."
+        submitting: Sometiendo petición de Kit.
+        text1: Saber cómo empezar a seguir a Jesús no siempre es claro,  por eso hemos creado un Starter Kit Espiritual gratis.
+        text2: El kit incluye...
+        title: "¿Y Ahora Qué?"
       invite:
-        text1: 
-        text2: 
-        title: 
-      page_title: 
-      subtitle: 
-      title: 
+        text1: "¿Tienes un amigo cristiano que conoces y confias?"
+        text2: Invítalo recibir nuestro Starter Kit Espiritual gratis para que te pueda ayudar en el camino.
+        title: Invita a un Amigo
+      page_title: El Desafío
+      subtitle: "¡y también lo es Jesús!"
+      title: Estamos tan emocionados qué tomsate esta decisión
     christian:
-      page_title: 
-      subtitle: 
-      title: 
+      page_title: Comparte
+      subtitle: Comparte este ahora mismo con tus amigos
+      title: Qué Impresionante
     decision:
-      answer1: 
-      answer2: 
-      answer3: 
-      page_title: 
-      question: 
-      title: 
-      video_id: 
+      answer1: Sí
+      answer2: 'No'
+      answer3: Ya soy un/a cristiano/a
+      page_title: Más Información
+      question: "¿Oraste para iniciar una relación con Dios?"
+      title: Ve a Bosco explicar lo que significa seguir a Jesús. ¿Es esto lo que quieres?
+      video_id: bM5aISQiHOI
     home:
-      answer1: 
-      answer2: 
-      answer3: 
-      answer4: 
-      question: 
+      answer1: 'No'
+      answer2: Quiero saber más
+      answer3: Quiero empezar
+      answer4: Ya soy un/a cristiano/a
+      question: "¿Quieres empezar a seguir a Jesús?"
     more:
-      answer1: 
-      answer2: 
-      answer3: 
-      page_title: 
-      question: 
-      title: 
+      answer1: Sí
+      answer2: 'No'
+      answer3: Ya soy un/a cristiano/a
+      page_title: Más Información
+      question: "¿Oraste para comenzar una relación con Dios?"
+      title: Ve a Bosco explicar lo que significa seguir a Jesús. ¿Es esto lo que quieres?
     thanks:
-      page_title: 
-      subtitle: 
-      text_html: 
-      text_link: 
-      text_url: 
-      title: 
+      page_title: Gracias
+      subtitle: Nos has dicho que no quieres seguir a Jesús
+      text_html: Si tienes alguna pregunta, puedes encontrar respuestas en %{href}
+      text_link: cadaestudiante.com
+      text_url: http://www.cadaestudiante.com
+      title: Gracias por ver The Prize
   footer:
-    copyright: 
+    copyright: Copyright
   home:
-    meet_the_stars: 
-    title: 
+    meet_the_stars: Conoce a los Jugadores
+    title: Ve cómo cinco estrellas manejan las presiones increíbles del juego y la vida.
     video_id: PZNYQHOhGFI
     video_url: 
   km: 
   language:
-    page_title: 
-    title: 
+    page_title: Idioma
+    title: Selecciona tu País
   menu:
-    about: 
-    dvd: 
-    home: 
-    resources: 
-    see_all: 
-    the_stars: 
+    about: Acerca de
+    dvd: DVD
+    home: Inicio
+    resources: Recursos
+    see_all: Ver Todos
+    the_stars: Las Estrellas
   resources:
     bible_studies:
-      leader_guides: 
-      question_guide: 
-      student_guides: 
-      title: 
+      leader_guides: Guías del Líder
+      question_guide: Guía de Preguntas para Iniciar
+      student_guides: Guías para Estudiante
+      title: Estudios Bíblicos
     dvd:
-      subtitle: 
-      title: 
+      subtitle: DVD- 35 Idiomas NTSC/ PAL
+      title: DVD
     jesusfilm_app:
-      subtitle: 
-      title: 
+      subtitle: Película Jesús app para iOS y Android
+      title: Película Jesús App
   seperator: 
   test: 
   the_stars:
     caucau:
-      col1: 
-      col2: 
-      country: 
-      name: 
+      col1: Cuando yo tenía 16 años y jugaba para Palmeiras, no estaba seguro si tenía un futuro allí. ... Hasta entonces yo sólo había pensado en el fútbol, ​​pero la desilusión que mi vida futbolística no estaba funcionando me hizo pensar acerca de las preguntas más grandes. Hablé con mi hermano sobre la fe y el propósito de la vida. Yo siempre había creado en Dios sin tener una relación con él.  Yo sabía que necesitaba ... el amor de Dios y decidí vivir mi vida por él.
+      col2: Muchas personas piensan que tienen que realizarse para ganar el amor de Dios.  Él me ha enseñado que es todo lo contrario y me acepta tal como soy.  Todo lo que quiere de mí es que yo le doy mi corazón y mi vida.  Estoy muy agradecido por eso.
+      country: Alemania
+      name: Cacau
     enoh:
-      col1: 
-      col2: 
-      country: 
-      name: 
+      col1: 'Hablando acerca de la presión en que nos encontramos,  creo que esta presión es para todos.  Creo que todos en todos los niveles pasan por un poco de presión.  El mismo en las distintas etapas.  Ahora, para mí, tener esta presión es simplemente confiar en el Señor. La Biblia dice: "Depositen en él toda ansiedad, porque él cuida de ustedes."  Cuando entiendo que la vida que estoy viviendo no es la mía. Es una vida por la cual él ha muerto . Ha intercambiado su vida por la mía y me ha dado una vida de paz y una vida de alegría, entonces yo vivo más allá de mí mismo. Yo vivo más allá de lo que diga la gente, más allá de lo que la gente piensa. Me centro más en lo que el Señor dice acerca de mí.'
+      col2: "... Un amigo mío de la escuela me habló del Señor Jesús. ... Y vino a mí como realidad.  Él habló a mi corazón, me llegó al corazón y el evangelio llegó a ser muy real para mí.  Desde ese día, yo he estado enamorado de Jesús."
+      country: Camerún
+      name: Enoh
     guzan:
-      col1: 
-      col2: 
-      country: 
-      name: 
+      col1: Cuando escuchas tu nombre siendo llamado de la lista del equipo, el día del partido - la emoción, la energía que pasa a través de tu cuerpo.  Esto es lo que se trata para mí y jugar bien el primer partido, jugar bien el segundo juego y saber que mis compañeros de equipo y entrenadores empezaron a tener la confianza y la fe en mí.
+      col2: Para mí, mi vida personal, mi vida de fe y mi vida deportiva - todos se unen. Creo que así tienen que ser. Creo que eso es algo natural. No tienes una sin la otra y lo más importante es tener a Jesús en tu vida. No siempre ha sido un camino fácil al éxito. Siempre habrá baches en el camino, y por medio de las dificultades, Jesús es quien me ayudó a superar cada lucha.
+      country: EE.UU.
+      name: Guzan
     kaka:
-      col1: 
-      col2: 
-      country: 
-      name: 
+      col1: Cada vez que juego en un partido honro el nombre de Jesús ... Yo creo que Jesús no tiene nada que ver con el dinero, con la fama ni con el éxito.  Fueron un regalo que me dio, el don de jugar al fútbol.  Sinceramente, creo que él no se preocupa mucho por Kaká, "  el jugador de fútbol".  Él se preocupa por Ricardo. ¿Quién soy yo, y la persona que soy.
+      col2: He pasado por grandes momentos en mi carrera, y he pasado por momentos difíciles, tanto en mi carrera profesional y en mi vida personal.  En cada momento podía contar con Dios.  En mis oraciones, y en la Biblia, la palabra de Dios, con amigos que comparten la misma fe que yo.  Saber que, independientemente de la situación, si es bueno o malo, hay un Dios que nos ama, y eso hace toda la diferencia para mí.
+      country: |2-
+
+        Brasil
+      name: Kaká
     mulenga:
-      col1: 
-      col2: 
-      country: 
-      name: 
+      col1: No tenía ni idea de lo que era jugar para el equipo nacional.  Se oye hablar de él; leas acerca de ello.  Ahora te pones en una posición en recibir la crítica. Todo lo que haces - bueno o malo - va a ser criticado y vas a tener a alguien decir algo al respecto. "Yo solía pedirle a Dios tantas veces," ¿Por qué está pasando esto a mí cuando yo vengo a ti, oro a ti?  '¿Entonces por qué está pasando todo esto a mí cuando todos los demás están bien? ¿Qué hice yo para merecer esto? Para mí siempre es el por qué. Deja con el por qué. "En primer lugar, he aprendido que lo más importante es que no tienes el control. No importa lo mucho que tratas, no estás en control de las cosas que suceden. Si yo no tuviera a Jesús, estaría perdido.  Estaría completamente perdido.
+      col2: 'Sé que mi fuerza no viene de mí. Viene desde arriba. ... Dios no te llevará al siguiente nivel si no sabes cómo manejar la presión. Cuanto más se asciende el peor se vuelve. Cuanto más se asciende, cada vez que faltas un pase, tienes miles de personas que te llaman nombres o te dice estúpido, y cuando metas un gol tienes miles diciendote que eres lo mejor.  No voy a sentarme aquí y mentir y decir: "Yo vivo una vida temerosa de Dios perfecto." Tengo problemas a veces. Mi fe se pone a prueba ... Hay tantos desafíos. Hay tantas cosas que vienen a ti. Quieres a alguien con quien hablar.'
+      country: Zambia
+      name: Mulenga
   title: 

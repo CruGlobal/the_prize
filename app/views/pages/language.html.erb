@@ -8,7 +8,7 @@
     <ul class="f32">
       <% locale_group.each do |locale| %>
         <% if locale.active? %>
-          <li><a href="/language?locale=<%= locale.locale%>"><i class="flag <%= locale.country.try(:downcase) %>"></i><%= locale.name %></a></li>
+          <li><a href="/?locale=<%= locale.locale%>"><i class="flag <%= locale.country.try(:downcase) %>"></i><%= locale.name %></a></li>
         <% else %>
           <li><a class="inactive"><i class="flag <%= locale.country.try(:downcase) %>"></i><%= locale.name %></a></li>
       <% end %>

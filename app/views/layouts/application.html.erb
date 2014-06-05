@@ -33,10 +33,11 @@
 					<li class="<%= is_active? page_path('the_stars') %>"><%= link_to t('menu.players'), page_path('players/kaka') %></li>
 					<li class="<%= is_active? page_path('falcao') %>"><%= link_to t('menu.falcao'), page_path('falcao') %></li>
 					<li class="<%= is_active? page_path('resources') %>"><%= link_to t('menu.resources'), page_path('resources') %></li>
+					<li class="<%= is_active? page_path('watched') %>"><%= link_to t('menu.watched'), page_path('watched') %></li>
 					<% if locale_menu.empty? %>
 						<li class="f16"><a href="<%= page_path('language') %>"><i class="flag <%= current_language.country.try(:downcase) %>"></i><%= current_language.name %></a></li>
 					<% else %>
-						<li class="f16"><a href="<%= page_path('language') %>"><i class="flag <%= current_language.country.try(:downcase) %>"></i><%= current_language.name %> - Select Lang</a></li>
+						<li class="f16"><a href="<%= page_path('language') %>"><i class="flag <%= current_language.country.try(:downcase) %>"></i><%= current_language.name %> - Select</a></li>
 						<!--
 						<li class="dropdown <%= is_active? page_path('language') %>">
 							<a href="#" class="dropdown-toggle f16" data-toggle="dropdown"><i class="flag <%= current_language.country.try(:downcase) %>"></i><%= current_language.name %> - Select Lang</a>

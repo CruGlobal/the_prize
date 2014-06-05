@@ -54,6 +54,11 @@ ne:
       text_link: 
       text_url: 
       title: 
+    thanks_signup:
+      page_title: 
+      subtitle: 
+      text_html: 
+      title: 
   footer:
     copyright: 
   home:

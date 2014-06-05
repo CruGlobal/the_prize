@@ -54,6 +54,11 @@ es:
       text_link: cadaestudiante.com
       text_url: http://www.cadaestudiante.com
       title: Gracias por ver The Prize
+    thanks_signup:
+      page_title: 
+      subtitle: 
+      text_html: 
+      title: 
   footer:
     copyright: Copyright
   home:

@@ -54,6 +54,11 @@ en:
       text_link: everystudent.com
       text_url: http://www.everystudent.com
       title: Thanks for watching the prize
+    thanks_signup:
+      page_title: Thank You
+      title: Thank You
+      subtitle: Congratulations on your decision to ask Jesus Christ into your life.
+      text_html: Big block of text here
   footer:
     copyright: Copyright
   home:

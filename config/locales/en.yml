@@ -76,7 +76,9 @@ en:
     home: Home
     resources: Resources
     see_all: See All
-    the_stars: The Stars
+    share: Share
+    the_stars: The Players
+    watched: Watched
   resources:
     bible_studies:
       leader_guides: Leader Guides

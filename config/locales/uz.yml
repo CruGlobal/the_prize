@@ -3,7 +3,7 @@ uz:
     col1: 
     col2: 
     title: 
-  english_name: 
+  english_name: Uzbek
   flow:
     challenge:
       action_form:
@@ -76,7 +76,9 @@ uz:
     home: 
     resources: 
     see_all: 
+    share: 
     the_stars: 
+    watched: 
   resources:
     bible_studies:
       leader_guides: 

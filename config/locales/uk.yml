@@ -3,7 +3,7 @@ uk:
     col1: 
     col2: 
     title: 
-  english_name: Ukraine
+  english_name: Ukrainian
   flow:
     challenge:
       action_form:
@@ -76,7 +76,9 @@ uk:
     home: 
     resources: 
     see_all: 
+    share: 
     the_stars: 
+    watched: 
   resources:
     bible_studies:
       leader_guides: 

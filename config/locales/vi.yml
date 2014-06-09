@@ -3,7 +3,7 @@ vi:
     col1: 
     col2: 
     title: 
-  english_name: 
+  english_name: Vietnamese
   flow:
     challenge:
       action_form:
@@ -76,7 +76,9 @@ vi:
     home: 
     resources: 
     see_all: 
+    share: 
     the_stars: 
+    watched: 
   resources:
     bible_studies:
       leader_guides: 

@@ -76,7 +76,9 @@ it:
     home: 
     resources: 
     see_all: 
-    the_stars: 
+    share: 
+    the_stars: I Giocatori
+    watched: Visto
   resources:
     bible_studies:
       leader_guides: 

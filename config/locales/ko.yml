@@ -1,36 +1,39 @@
 ko:
   about:
-    col1: 
-    col2: 
+    col1: 1966년, 스포츠 선교회는 스포츠를 통하여 사람들에게 믿음과 예수 그리스도를 알게 하는 것입니다. 저희는 스포츠라는 하나의 수단을 통해서 문을 열고, 다른 것 들로는 이뤄질 수 없는 것들이 스포츠를 통해서 이룰 수 있다고 믿고 있습니다. 그러기에 저희는 더더욱 선수들과 스포츠 팬들에게 스포츠를 통해서 다가가려 합니다.저희의 궁극적인 목표는 오직 그들의 삶이 하나님께서 뜻하시고 계획하신 것에 따라 새로운 삶을 사는 것입니다.
+    col2: |-
+      각 팀 그리고 심지어 각 나라들이 모두 예수 그리스도를 믿고 따르는 것을 우리는 매일 소망합니다. 우리는 이러한 소망들이 다양한 단체들과 개인 한 명 한 명이 진심으로 예수님을 믿고 따르고 하나님의 나라를 위해 일하고 가기를 원한다면 이루어질 수 있다고 믿습니다.
+
+      스포츠 선교회는 대학생 선교회에 속해있는 하나의 단체입니다. 크루는 미국 대학생 선교회에 있는 또 다른 이름입니다.
     title: 
   english_name: Korean
   flow:
     challenge:
       action_form:
-        button: 
-        email: 
-        name: 
-        received: 
-        submitting: 
-        text1: 
-        text2: 
-        title: 
+        button: "초신앙자들을 위한 질문지 보기"
+        email: "이메일"
+        name: "이름"
+        received: "질문지가 접수되었습니다! 곧 확인 메일이 도착합니다. "
+        submitting: "질문지 제출중..."
+        text1: "예수님을 알고 따르는 것은 언제나 쉽지가 않습니다. 그러"
+        text2: "질문지에는..."
+        title: "지금은 어떤가요?"
       invite:
-        text1: 
-        text2: 
-        title: 
-      page_title: 
-      subtitle: 
-      title: 
+        text1: "당신은 믿고 의지하는 그리스도인 친구가 있습니까?"
+        text2: "당신의 친구들을 초대하고 무료 초신앙자 질문 서비스를 받아보세요."
+        title: "친국 초대하기"
+      page_title: "도전"
+      subtitle: "그래서 예수님이죠!"
+      title: "우리는 당신의 선택에 매우 기쁩니다. "
     christian:
-      page_title: 
-      subtitle: 
-      title: 
+      page_title: "나누기"
+      subtitle: "지금 당신의 친구들과 이것들을 나눠보세요"
+      title: "대단해요"
     decision:
-      answer1: 
-      answer2: 
-      answer3: 
-      page_title: 
+      answer1: "네"
+      answer2: "아니오"
+      answer3: "저는 이미 그리스도인입니다."
+      page_title: "더 많은 정보 보기"
       question: 
       title: 
       video_id: 

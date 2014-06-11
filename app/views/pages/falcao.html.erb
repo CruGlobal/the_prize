@@ -1,7 +1,7 @@
-<%= content_for :page_title, "#{t 'seperator'} #{t 'menu.resources'}" %>
+<%= content_for :page_title, "#{t 'seperator'} #{t 'menu.falcao'}" %>
 <%= content_for :page, 'short' %>
-<div>
-  <!-- English -->
-  <h2 class="blue">English <!--falcao.language --></h2>
-  <div class="videoWrapper"><iframe src="//player.vimeo.com/video/90567506" width="1281" height="721" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div>  
+  <!-- Spanish, Portuguese, English -->
+  <h2 class="blue"><%= t('english_name') %> <!--falcao.language --></h2>
+  <div class="videoWrapper"><iframe src="//player.vimeo.com/video/<%= t('falcao.videoid') %>" width="1281" height="721" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 </div>

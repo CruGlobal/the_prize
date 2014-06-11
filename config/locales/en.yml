@@ -3,7 +3,11 @@ en:
     col1: 'Since 1966, Athletes in Action has been using sports as a platform to help people answer questions of faith and to point them to Jesus. We believe that sports has the power to open doors and create connections in a way that few other things can, and that’s why we are constantly working to create new ways of reaching out to athletes and sports fans alike. Ultimately, our goal is to see peoples’ lives changed as they discover God’s purpose for their life. '
     col2: "We dream of a day when there are Christ-followers on every team, in sport, in every nation. We believe this is possible when organizations and individuals -- who want every athlete to know someone who truly follows Jesus -- work together toward the common goal of furthering God’s kingdom.\n\nAthletes in Action is a part of Cru (formerly called Campus Crusade for Christ). Cru is the name of CCC in the United States. "
     title: Athletes in Action produced The Prize.
-  english_name: 
+  english_name: English
+  falcao:
+    name: Falcao
+    story: 
+    videoid: 90567506
   flow:
     challenge:
       action_form:

@@ -1,13 +1,13 @@
-bs:
+pt-PT:
   about:
     col1: 
     col2: 
     title: 
-  english_name: Bosnian
+  english_name: Portuguese
   falcao:
     name: 
     story: 
-    videoid: 
+    videoid: 90569677
   flow:
     challenge:
       action_form:
@@ -68,7 +68,7 @@ bs:
   home:
     meet_the_stars: 
     title: 
-    video_id: VmlLXYtGCpo
+    video_id: i8xHC0i8FdI
     video_url: 
   km: 
   language:

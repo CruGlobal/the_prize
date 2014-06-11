@@ -1,31 +1,31 @@
 pt-BR:
   about:
-    col1: 
+    col1: 'Desde de 1966, Atletas em Ação vem usando a plataforma dos esportes  para ajudar as pessoas  a conhecerem a Jesus pessoalmente.  Nós cremos que o esporte pode abrir portas e criar maneiras de conectarmos com pessoas como poucas coisas podem, e é o porque do nosso trabalho constante para criar novas maneiras para alcançar atletas e os torcedores.  O nosso alvo maior é ver a vida das pessoas transformadas na medida em que descobrem o propósito de Deus para suas vidas.  '
     col2: 
     title: 
   english_name: Portugese
   flow:
     challenge:
       action_form:
-        button: 
-        email: 
-        name: 
-        received: 
-        submitting: 
-        text1: 
-        text2: 
-        title: 
+        button: Receber o meu kit gratuito dos Começando
+        email: Email
+        name: Nome
+        received: O pedido do seu kit foi recebido!  Você receberá um email de confirmação em breve.
+        submitting: Enviando o pedido do kit
+        text1: Sabendo que começar a seguir a Jesus não é sempre muito claro, criamos um kit gratuito do começando Espirituais.
+        text2: 'O kit inclue '
+        title: E agora?
       invite:
-        text1: 
-        text2: 
-        title: 
-      page_title: 
-      subtitle: 
+        text1: Você tem um amigo cristão que você conhece e confia?
+        text2: Convide-os para receber o nosso Kit gratuito do Começando Sua Nova Vida assim eles podem ajuda-lo na caminhada.
+        title: Convide um amigo
+      page_title: O desafio
+      subtitle: e assim é Jesus!
       title: 
     christian:
-      page_title: 
-      subtitle: 
-      title: 
+      page_title: 'Compartilhar '
+      subtitle: Compartilhe isto com seus amigos agora
+      title: Que legal
     decision:
       answer1: 
       answer2: 

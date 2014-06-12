@@ -1,22 +1,24 @@
 pt-BR:
+  Bosco:
+    CCLanguage: 
   about:
     col1: 'Desde de 1966, Atletas em Ação vem usando a plataforma dos esportes  para ajudar as pessoas  a conhecerem a Jesus pessoalmente.  Nós cremos que o esporte pode abrir portas e criar maneiras de conectarmos com pessoas como poucas coisas podem, e é o porque do nosso trabalho constante para criar novas maneiras para alcançar atletas e os torcedores.  O nosso alvo maior é ver a vida das pessoas transformadas na medida em que descobrem o propósito de Deus para suas vidas.  '
-    col2: 
-    title: 
-  english_name: Portugese
+    col2: "Nós sonhamos com o dia em que existirem seguidores de Cristo em todas as equipes, em todos os esportes e em todas as nações.  Nós cremos que isto seja possível quando as organizações e indivíduos - que querem que todo atleta conheça e verdadeiramente siga a Jesus - Trabalham juntos para um alvo comum e para o reino de Deus. \n\nAtletas em Ação é parte da Cruzada Estudantil.  Nos Estados Unidos é chamada de CRU."
+    title: Atletas em Ação produziu O Prêmio.
+  english_name: Português
   falcao:
-    name: 
+    name: Falcão
     story: 
     videoid: 90569677
   flow:
     challenge:
       action_form:
-        button: Receber o meu kit gratuito dos Começando
+        button: Receber o meu kit inicial gratuito
         email: Email
         name: Nome
         received: O pedido do seu kit foi recebido!  Você receberá um email de confirmação em breve.
         submitting: Enviando o pedido do kit
-        text1: Sabendo que começar a seguir a Jesus não é sempre muito claro, criamos um kit gratuito do começando Espirituais.
+        text1: Sabemos que começar a seguir a Jesus não é sempre muito claro, criamos um kit Espiritual inicial gratuito.
         text2: 'O kit inclue '
         title: E agora?
       invite:
@@ -25,63 +27,65 @@ pt-BR:
         title: Convide um amigo
       page_title: O desafio
       subtitle: e assim é Jesus!
-      title: 
+      title: Estamos muito contentes que você tomou esta decisão
     christian:
       page_title: 'Compartilhar '
       subtitle: Compartilhe isto com seus amigos agora
       title: Que legal
     decision:
-      answer1: 
-      answer2: 
-      answer3: 
-      page_title: 
-      question: 
-      title: 
-      video_id: 
+      answer1: Sim
+      answer2: Nâo
+      answer3: Eu já sou um Cristão
+      page_title: Mais informações
+      question: 'Você orou para iniciar um relacionamento com Deus? '
+      title: 'Assista o Bosco explicar o que significa seguir a Jesus.  É isto que você quer? '
+      video_id: bM5aISQiHOI
     home:
-      answer1: 
-      answer2: 
-      answer3: 
-      answer4: 
-      question: 
+      answer1: Não
+      answer2: Eu quero saber mais
+      answer3: Eu quero começar
+      answer4: Eu já sou um Cristão
+      question: 'Você quer começar a seguir a Jesus? '
     more:
-      answer1: 
-      answer2: 
-      answer3: 
-      page_title: 
-      question: 
-      title: 
+      answer1: Sim
+      answer2: Não
+      answer3: Eu já sou um Cristão
+      page_title: 'Mais Informações '
+      question: 'Você orou para começar um relacionamento com Deus? '
+      title: 'Assista o Bosco explicar o que significa seguir a Jesus.  É isto que você quer? '
     thanks:
-      page_title: 
-      subtitle: 
-      text_html: 
-      text_link: 
-      text_url: 
-      title: 
+      page_title: Obrigado
+      subtitle: Você nos disse que não quer seguir a Jesus
+      text_html: |-
+        If you have any questions you can find answers at %{href}
+        Se você tiver qualquer pergunta que possa descobrir a resposta no %(href)
+      text_link: everystudent.com
+      text_url: http://www.everystudent.com
+      title: Obrigado por ter assistido O Prêmio
     thanks_signup:
-      page_title: 
-      subtitle: 
-      text_html: 
-      title: 
+      page_title: Obrigado
+      subtitle: Parabéns pela decisão por convidar a Jesus para entrar em sua vida
+      text_html: " E agora?\nSe isto fosse uma religião,você poderia esperar que alguém desse a você um monte de regras.  Rituais, obrigações e talvez comprar um monte de coisas\nMas quando você convida a Jesus para entrar em sua vida, você não vira membro de uma religião\nao invés disto, você começou um relacionamento com Deus.  \nE isto é mesmo muito incrivel\nTalvez você fica imaginando,como que você pode conhecer a Deus melhor?  um parceiro de AeA preparou uma série chamada \"Os kits começando.\" É gratuito, e chega pelo correio em sua casa.\nAqui esta o que você receberá pelo correio \"O kit Espiritual começando\"\nComo ter certeza que Cristo entrou em sua vida\nO que Deus fez para aproximar você à Ele\nQual é a diferença entre o amor de Deus\nPorque o seu relacionamento com Deus é assegurado por Ele e não por você\nO que significa confiar em Deus\nE se você pecar? Deus ainda irá perdoá-lo? \nComo encontrar uma Igreja, outros Cristãos, ou um grupo de Cristão em sua escola\n Cada email, carta ajudará a você entender algumas coisas muito importantes sobre sua amizade com Deus\n\n\n\n\n"
+      title: Obrigado
   footer:
-    copyright: 
+    copyright: Direitos autorais
   home:
-    meet_the_stars: 
-    title: 
+    meet_the_stars: 'Conheça os jogadores '
+    title: Veja como as cinco estrelas do futebol lidam com pressões incríveis dos jogos e da vida.
     video_id: P3PIKxzjKT4
     video_url: 
   km: 
   language:
-    page_title: 
-    title: 
+    page_title: Idioma
+    title: Selecione o seu país
   menu:
-    about: 
-    dvd: 
-    home: 
-    resources: 
-    see_all: 
+    about: Sobre
+    dvd: DVD
+    home: Inicio
+    resources: Recursos
+    see_all: Ver tudo
     share: Ação
-    the_stars: 
+    the_stars: 'Os jogadores '
     watched: Assisti
   resources:
     bible_studies:
@@ -95,32 +99,36 @@ pt-BR:
     jesusfilm_app:
       subtitle: 
       title: 
-  seperator: 
-  test: 
+  seperator: "-"
+  test: Teste
   the_stars:
     caucau:
-      col1: 
-      col2: 
-      country: 
-      name: 
+      col1: 'Quando eu tinha 16 anos e jogava para o Palmeiras, eu não tinha certeza se teria um futuro ali...Até então eu só pensava realmente no futebol mas o desapontamento que minha vida no futebol não iria avançar me fazia pensar em grandes questionamentos.  Eu conversei com o meu irmão sobre a fé e sobre o que era propósito na vida  Eu sempre acreditei em Deus mas sem ter um relacionamento com Ele.  Eu sabia que eu precisava...O amor de Deus e eu decidi viver a minha vida para Ele.  '
+      col2: "Muitas pessoas pensam que eles precisam ter desempenho para ganhar o amor de Deus.  Ele tem me mostrado que é absolutamente ao contrário, Ele me aceita como eu sou.  Tudo o que Ele quer de mim é que eu entregue a Ele o meu coração e minha vida.  Eu sou muito grato por isso. \n\n\n\n"
+      country: Alemanha
+      name: Cacau
     enoh:
-      col1: 
-      col2: 
-      country: 
-      name: 
+      col1: 'Falando de pressão que encontramos, eu acredito que as pressões acontecem para todos.  Eu acredito que em todos os níveis se passa por pressão.  A mesma em estágios diferentes.  Agora para mim pessoalmente passar por pressão é confiar em Deus.  A Bíblia diz "Lançando sobre Ele toda a vossa ansiedade, porque Ele tem cuidado de vós".  Quando eu entendo que a vida que estou vivendo não é mais a minha.  É uma vida que Ele morreu por ela.  Ele morreu na cruz por mim, por minha vida e tem me dado uma paz e uma vida de alegria, só assim eu vivo além de mim mesmo.  Eu vivo além doque as pessoas pensam ou falam.  Eu foco mais em o que o Senhor me diz a meu respeito.  '
+      col2: |+
+        ...um amigo meu da escola compartilhou de Jesus para mim.  ...e isto chegou para mim como uma realidade.  Ele falou ao meu coração, Ele tocou o meu coração e o evangelho se tornou muito real para mim.  Desde daquele dia, eu tenho andando com Jesus.
+
+
+
+      country: 'Camarões '
+      name: Enoh
     guzan:
-      col1: 
-      col2: 
-      country: 
-      name: 
+      col1: "Quando você ouve seu nome ser chamado na lista da equipe, no dia de jogo - a emoção, a energia que passa pelo corpo é muito grande.  E é assim que é para mim, é jogar bem este primeiro jogo, jogar bem o segundo jogo e saber que eu agora sou titular e tenho a confiança dos meus amigos de equipe e dos técnicos. \n"
+      col2: "Para mim, a minha vida pessoal, minha vida na fé e minha vida nos esportes - tudo esta ligado.  Eu creio que deve ser assim.  Eu creio ser natural.  Você não fica com um, sem o outro e o mais importante de tudo você precisa ter Jesus em sua vida.  Não tem sido um mar de rosas chegar ao sucesso.  Sempre haverá pedras no caminho e dificuldades, Jesus é aquele que me ajuda a passar por muitas lutas. \n"
+      country: Estados Unidos
+      name: Guzan
     kaka:
-      col1: 
-      col2: 
-      country: 
-      name: 
+      col1: "Todas as vezes que participei de um jogo eu honrei o nome de Jesus...Eu acredito que Jesus não tem nada a haver com dinheiro, com fama, com sucesso.  Estes são dons que Ele me deu, o don de jogar futebol.  Eu acredito que Deus não se importa tanto com o Kaká \"O jogador de futebol\".  Ele esta preocupado com o Ricardo.  Quem eu sou, e a pessoa que sou.  \n"
+      col2: Eu já passei por grandes momentos em minha carreira, e já passei por momentos difíceis também, em minha carreira e em minha vida pessoal.  Em todos os momentos eu pude contar com Deus.  Em minhas orações, e a Bíblia, a Palavra de Deus, com amigos que compartilham a mesma fé.  E saber que apesar das situações se forem boas, ou ruins, que existe um Deus que nos ama, faz toda a diferença para mim.
+      country: 'Brasil '
+      name: Kaká
     mulenga:
-      col1: 
-      col2: 
-      country: 
-      name: 
-  title: 
+      col1: 'Eu não imaginava o que significava jogar para a equipe nacional.  A gente ouve a respeito disto, e lê a respeito também.  Agora  quando você se coloca em uma posição onde vai ser criticado. Em tudo que você faz - bom ou ruim - você vai ser criticado e você vai ter alguém dizendo algo sobre isto.  "Eu costumava perguntar para Deus tantas vezes, porque isto esta acontecendo comigo?  quando falava com o Senhor em oração.  O porque que isto esta acontecendo comigo e os outros estão bem?  O que eu fiz para merecer isto?  Para mim é sempre o porque?.  Pare com o Porque."  Eu aprendi algo muito importante, aprendi que você não esta no controle.  Não importa quanto você tente,  você não esta no controle das coisas que acontecem.  Se eu não tivesse Jesus eu estaria perdido.  Eu ficaria completamente perdido. '
+      col2: 'Eu sei que minha força não vem de mim.  Vem de cima...Deus não o levará para o próximo nível se você não sabe como lidar com a pressão.  Quanto mais alto você chega pior fica.  Quanto mais alto você chega a cada vez e erra uma bola, tem milhares de pessoas te chamando de estupido, ou dos piores nomes, e quando você faz um gol então tem milhares dizendo que você é o maior.  Eu não vou mentir para você e dizer, "Eu vivo uma vida perfeita, uma vida de temor a Deus". Eu tenho problemas muitas vezes.  A minha fé é testada...São muitos desafios.  Tem muitas coisas que vem em sua direção.  É preciso ter alguém para conversar. '
+      country: Zambia
+      name: Mulenga
+  title: O Prêmio

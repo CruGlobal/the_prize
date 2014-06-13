@@ -1,13 +1,20 @@
 <%= content_for :page_title, "#{t 'seperator'} #{t 'menu.share'}" %>
 <%= content_for :page, 'short' %>
 <div class="text-center">
-	<h2>Help us share The Prize: Under Pressure!</h2>
-	<h4>Sample Tweet #1</h4>
-	<p>How much pressure does a professional footballer feel? Watch here to find out: www.theprize.com #WorldCup2014 #ThePrize14</p>
-	<h4>Sample Tweet #2</h4>
-	<p>Do you love the #WorldCup ? Watch 5 football players share their story at theprize.com #ThePrize14</p>
-	<br>
-	<h2>The following players featured in the Prize Under Pressure are on twitter.  Let them know how much you enjoyed their story!
+	<h2 class="blue">Follow ThePrize on twitter and Facebook</h2>
+	<div>
+		<a href="https://twitter.com/theprizefilm" target="_blank"><img src="<%= image_url("prize-twitter.png") %>"/></a>
+		<a href="http://facebook.com/theprize" target="_blank"><img src="<%= image_url("prize-facebook.png") %>"/></a>
+	</div>
+	<div>	
+		<h2>Help us share The Prize: Under Pressure!</h2>
+		<h4>Sample Tweet #1</h4>
+		<p>How much pressure does a professional footballer feel? Watch here to find out: www.theprize.com #WorldCup2014 #ThePrize14</p>
+		<h4>Sample Tweet #2</h4>
+		<p>Do you love the #WorldCup ? Watch 5 football players share their story at theprize.com #ThePrize14</p>
+		<br>
+		<h2>The following players featured in the Prize Under Pressure are on twitter.  Let them know how much you enjoyed their story!
+	</div>
 	<br>
 	<div class="col-sm-4">
 		<h2 class="blue">KAKÁ</h2>
@@ -36,6 +43,7 @@
 			<a href="http://instagram.com/falcao" target="_blank"><span class="fa-stack"><i class="fa fa-circle-o fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x"></i></span></a>
 		</h2>
 	</div>
+
 </div>
 
 <!--

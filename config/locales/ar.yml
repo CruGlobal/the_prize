@@ -81,28 +81,28 @@ ar:
   menu:
     about: 
     dvd: "دي ڨي دي"
-    falcao: 
-    home: 
-    players: 
-    resources: 
-    see_all: 
-    share: 
-    the_stars: 
-    watched: 
+    falcao: "فالكاو"
+    home: "الرئيسية"
+    players: "اللاعبون"
+    resources: "المصادر"
+    see_all: "شاهد الكل"
+    share: "شارك"
+    the_stars: "اللاعبون"
+    watched: "شاهدت الفيلم"
   resources:
     bible_studies:
-      leader_guides: 
-      question_guide: 
-      student_guides: 
-      title: 
+      leader_guides: "دليل القائد"
+      question_guide: "دليل أسئلة المبتدئين"
+      student_guides: "دليل الدارس"
+      title: "المصادر"
     dvd:
-      subtitle: 
-      title: 
+      subtitle: "دي ڨي دي - 35 لغة ‏NTSC / PAL"
+      title: "دي ڨي دي"
     jesusfilm_app:
-      subtitle: 
-      title: 
-  seperator: 
-  test: 
+      subtitle: "تطبيق فيلم يسوع على ‏iOS & Android‏ ‏"
+      title: "تطبيق فيلم يسوع ‏\t"
+  seperator: "-"
+  test: "اختبار"
   the_stars:
     caucau:
       col1: 

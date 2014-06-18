@@ -38,10 +38,10 @@
 					<% if locale_menu.empty? %>
 						<li class="f16"><a href="<%= page_path('language') %>"><i class="flag <%= current_language.country.try(:downcase) %>"></i><%= current_language.name %></a></li>
 					<% else %>
-						<li class="f16"><a href="<%= page_path('language') %>"><i class="flag <%= current_language.country.try(:downcase) %>"></i><%= current_language.name %> - Select</a></li>
+						<li class="f16"><a href="<%= page_path('language') %>"><i class="flag <%= current_language.country.try(:downcase) %>"></i><%= current_language.name %> - Change</a></li>
 						<!--
 						<li class="dropdown <%= is_active? page_path('language') %>">
-							<a href="#" class="dropdown-toggle f16" data-toggle="dropdown"><i class="flag <%= current_language.country.try(:downcase) %>"></i><%= current_language.name %> - Select Lang</a>
+							<a href="#" class="dropdown-toggle f16" data-toggle="dropdown"><i class="flag <%= current_language.country.try(:downcase) %>"></i><%= current_language.name %> - Change</a>
 				          <ul class="dropdown-menu f16 locale_menu">
 				            <li class="f16"><a href="<%= page_path('language') %>"><i class="flag <%= current_language.country.try(:downcase) %>"></i><%= current_language.name %></a></li>
 				            <li><a onClick="window.location.href = $(this).attr('href');" href="/language" class="dropdown-toggle" data-toggle="dropdown">Select Language</a></li>

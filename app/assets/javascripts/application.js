@@ -21,7 +21,12 @@ function onHalt(id) {
   //$('.halt').fadeIn();
 }
 function onFinish(id) {
+  //track video finished in clicky
+  var clicky_custom = {};
+  clicky_custom.goal = { name: 'Completed Video with Questions' };
+  //- end
   $('.halt').fadeIn();
+
 }
 function onPlayProgress(data) {
   if ($('#ytplayer').data('stop_after') !== undefined && 

@@ -2,16 +2,16 @@ fr:
   Bosco:
     CCLanguage: 
   about:
-    col1: Depuis 1966, Athlètes en Action, (Sport et Foi international) utilise le sport comme tremplin pour aider des hommes et de femmes à répondre à des questions de foi et pour les diriger vers Jésus. Nous croyons que le sport a le pouvoir d'ouvrir des portes et de créer des liens comme peu  d'autres activités, et c'est pourquoi nous travaillons continuellement pour créer de nouvelles manières de toucher des sportifs et des fans. Notre but ultime est de voir la vie des personnes changer alors qu'ils découvrent le but de Dieu pour leur vie.
+    col1: Depuis 1966, Athlètes en Action, (Sport et Foi international) utilise le sport comme tremplin pour aider des hommes et de femmes à répondre à des questions de foi et pour les diriger vers Jésus. Nous croyons que le sport a le pouvoir d'ouvrir des portes et de créer des liens comme peu d'autres activités, et c'est pourquoi nous travaillons continuellement pour créer de nouvelles manières de toucher des sportifs et des fans. Notre but ultime est de voir la vie des personnes changer alors qu'ils découvrent le but de Dieu pour leur vie.
     col2: |-
       Nous rêvons du jour où il y aura des hommes et des femmes qui suivent Jésus dans chaque équipe, chaque sport, chaque pays. Nous croyons que cela est possible lorsque des organisations et des individus - qui veulent que chaque sportif connaisse quelqu'un qui suit véritablement Jésus - travaillent ensemble vers le but commun de l'avancement du Royaume de Dieu.
 
       Sport et Foi est la branche Française d'Athlètes en Action et est un ministère d'Agapé France.
-    title: Athlètes en Action a produit The Prize.
+    title: Athlètes en Action a produit La plus belle victoire
   english_name: Français
   falcao:
     name: Falcao
-    story: Son histoire
+    story: 
     videoid: 90567506
   flow:
     challenge:
@@ -21,7 +21,7 @@ fr:
         name: Nom, prénom
         received: Votre demande de Kit est enregistrée! Vous recevrez une confirmation par e-mail sous peu.
         submitting: Envoi de demande de Kit...
-        text1: Savoir comment commencer à suivre Jésus n'est pas toujours clair. C'est pourquoi nous avons créer un Kit de démarrage spirituel gratuit.
+        text1: Savoir comment commencer à suivre Jésus n'est pas toujours clair. C'est pourquoi nous avons crée un Kit de démarrage spirituel gratuit.
         text2: 'Inclut dans le kit :'
         title: Et mantienant ?
       invite:
@@ -58,76 +58,76 @@ fr:
       title: Regarder Bosco expliquer ce que ça veut dire de suivre Jésus. Est-ce ce que tu veux ?
     thanks:
       page_title: Merci
-      subtitle: 
-      text_html: 
-      text_link: 
-      text_url: 
-      title: 
+      subtitle: Tu nous as dit que tu ne souhaites pas suivre Jésus
+      text_html: Si tu as des questions tu trouveras des réponses à %{href}
+      text_link: atoi2voir.com
+      text_url: http://www.atoi2voir.com
+      title: Merci d'avoir visionné La plus belle victoire
     thanks_signup:
       page_title: Merci
       subtitle: Félicitations pour ta décision d'inviter Jésus-Christ dans ta vie.
-      text_html: "<p>Et Maintenant?</p>\n<p>Si c'était une religion, il y aurait plein de règles. Des rites. Des exigences. Peut-être même plein de choses à acheter!</p>\n<p>Mais quand tu as invité Jésus dans ta vie, tu n'as pas rejoint une religion.</p>\n<p>A la place, tu as commencé une relation avec Dieu.</p>\n<p>Et ça c'est énorme.</p>\n<p>Tu te demandes peut-être comment faire meilleure connaissance avec Dieu ? Un partenaire de Sport et Foi a écrit une série qui s'appelle \"Le Kit de démarrage spirituel\" et c'est gratuit et est envoyé par e-mail.</p>\n<p>Voici ce que tu recevras dans le \"Kit de démarrage spirituel\":</p>\n<ul>\n<li>Comment être sûr que Jésus est bien entré dans ta vie.</li>\n<li>Ce que Dieu a fait pour t'attirer ver lui.</li>\n<li>Ce qui est différent à propos de l'amour de Dieu et pourquoi c'est important.</li>  \n<li>Pourquoi ta relation avec Dieu est assuré par lui et non par toi.</li>\n<li>Ce que ça veut dire de faire confiance à Dieu.</li>\n<li>Et si tu fais un péché ? Est-ce que Dieu Pardonne toujours ?</li>\n<li>Comment trouver une église, d'autres chrétiens, ou un groupe chrétien sur ton campus.</li>\n</ul>\n<p>Chaque e-mail t'aidera à comprendre quelque chose d'important sur ton amitié avec Dieu.</p>"
+      text_html: "<p>Et Maintenant?</p>\n<p>Si c'était une religion, il y aurait plein de règles. Des rites. Des exigences. Peut-être même plein de choses à acheter!</p>\n<p>Mais quand tu as invité Jésus dans ta vie, tu n'as pas rejoint une religion.</p>\n<p>Au lieu de ça, tu as commencé une relation avec Dieu.</p>\n<p>Et ça c'est énorme.</p>\n<p>Tu te demandes peut-être comment faire meilleure connaissance avec Dieu ? Un partenaire de Sport et Foi a écrit une série qui s'appelle \"Le Kit de démarrage spirituel\" et c'est gratuit et est envoyé par e-mail.</p>\n<p>Voici ce que tu recevras dans le \"Kit de démarrage spirituel\":</p>\n<ul>\n<li>Comment être sûr que Jésus est bien entré dans ta vie.</li>\n<li>Ce que Dieu a fait pour t'attirer vers lui.</li>\n<li>Ce qui est différent à propos de l'amour de Dieu et pourquoi c'est important.</li>  \n<li>Pourquoi ta relation avec Dieu est assurée par lui et non par toi.</li>\n<li>Ce que ça veut dire de faire confiance à Dieu.</li>\n<li>Et si tu fais un péché ? Est-ce que Dieu Pardonne toujours ?</li>\n<li>Comment trouver une église, d'autres chrétiens, ou un groupe chrétien sur ton campus.</li>\n</ul>\n<p>Chaque e-mail t'aidera à comprendre quelque chose d'important sur ton amitié avec Dieu.</p>"
       title: Merci
   footer:
-    copyright: 
+    copyright: copyright
   home:
-    meet_the_stars: 
-    title: 
+    meet_the_stars: Rencontrer les joueurs
+    title: Regarder comment cinq sportifs de haut niveau font face à d'énormes pressions dans le jeu et dans la vie.
     video_id: 7FgBdYewUmg
     video_url: 
   km: 
   language:
-    page_title: 
-    title: 
+    page_title: Langue
+    title: Sélectionnez votre langue
   menu:
-    about: 
-    dvd: 
-    falcao: 
-    home: 
-    players: 
-    resources: 
-    see_all: 
-    share: 
-    the_stars: 
-    watched: 
+    about: A propos
+    dvd: DVD
+    falcao: Falcao
+    home: Accueil
+    players: Joueurs
+    resources: Resources
+    see_all: Tout voir
+    share: Partager
+    the_stars: Les joueurs
+    watched: Visionné
   resources:
     bible_studies:
-      leader_guides: 
-      question_guide: 
-      student_guides: 
-      title: 
+      leader_guides: Guides pour animateurs
+      question_guide: Echauffements
+      student_guides: Entrer dans le jeu
+      title: Resources
     dvd:
-      subtitle: 
-      title: 
+      subtitle: DVD - 35 langues
+      title: DVD
     jesusfilm_app:
-      subtitle: 
-      title: 
-  seperator: 
+      subtitle: App Film Jésus sur iOS & Android
+      title: App Film Jésus
+  seperator: "-"
   test: 
   the_stars:
     caucau:
-      col1: 
-      col2: 
-      country: 
-      name: 
+      col1: Quand j'avais 16 ans et que je jouais pour Palmeiras, je n'étais pas sûr d'y avoir un avenir... Jusque là ma seule vraie préoccupation était le football mais la déception que ma vie dans le football ne marchait pas m'a fait réfléchir sur de plus grandes questions. J'ai parlé avec mon frère sur la foi et sur le but de la vie. J'avais toujours cru en Dieu mais sans pour autant avoir une relation avec lui. Je savais que j'avais besoin de... l'amour de Dieu et j'ai décidé de vivre ma vie pour lui.
+      col2: Beaucoup de personnes croient qu'on mérite l'amour de Dieu avec des performances. Il m'a montré que la vérité est tout le contraire et il m'accepte tel que je suis. Tout ce qu'il veut de moi et que je lui donne mon coeur et ma vie. Je suis vraiment reconnaissant pour cela.
+      country: L'Allemagne
+      name: Cacau
     enoh:
-      col1: 
-      col2: 
-      country: 
-      name: 
+      col1: Parler de la pression que nous affrontons, je crois que cette pression est pour tout le monde. Je crois que tout le monde quel que soit leur niveau vit la pression. La même chose à différents stades. Maintenant pour moi personnellement vivre cette pression c'est simplement faire confiance au Seigneur. La Bible dit "déchargez-vous sur lui de tous vos soucis, car lui-même prend soin de vous". Quand je comprends que la vie que je vis n'est plus la mienne. C'est une vie pour laquelle il est mort. Il a échangé sa vie contre la mienne et m'a donné de vivre une vie de paix et une vie de joie, alors je vis au-delà de moi-même. Je vis au-delà de ce que disent les autres, au-delà de ce que pensent les autres. Je me concentre plus sur ce que le Seigneur dit à mon sujet.
+      col2: "...un ami de l'école m'a parlé du Seigneur Jésus... et il m'est simplement venu que c'est la réalité. Il a parlé à mon coeur, il a touché mon coeur et l'Evangile est devenu vraiment réel pour moi. Depuis ce jour, je suis amoureux de Jésus."
+      country: Cameroun
+      name: Enoh
     guzan:
-      col1: 
-      col2: 
-      country: 
-      name: 
+      col1: Quand on entend appeler son nom sur la liste de sélection un jour de match, il y a un enthousiasme, une énergie qui passe dans le corps. C'est l'essentiel pour moi et de bien jouer le premier match, de bien jouer le deuxième match et de savoir que mes coéquipiers et les entraîneurs commençaient à croire en moi et avoir confiance en moi.
+      col2: Pour moi, comment ma vie personnelle, ma vie de foi et ma vie de sport - s'alignent toutes. Je crois qu'elles doivent le faire. C'est tout juste naturel à mon avis. On n'a pas l'une sans l'autre et le plus important c'est d'avoir Jésus dans sa vie. Le chemin de la réussite n'a pas toujours été rose. Il y aura toujours des bosses le long du chemin, et à travers les difficultés, ce qui m'a aidé à traverser toutes ces luttes, c'est Jésus.
+      country: U.S.
+      name: Guzan
     kaka:
-      col1: 
-      col2: 
-      country: 
-      name: 
+      col1: Chaque fois que je joue, j'honore le nom de Jésus... Je crois que Jésus n'a rien avoir avec l'argent, la célébrité, et la réussite. C'est un don qu'il m'a offert, le don de jouer au football. Je crois véritablement qu'il ne se soucie pas beaucoup de Kaká "le joueur de foot". Il s'inquiète de Ricardo. De qui je suis, et de la personne que je suis.
+      col2: J'ai vécu de grands moments dans ma carrière et j'ai aussi traversé des moments durs dans ma carrière et dans ma vie personnelle. Dans tous ces moments, je pouvais compter sur Dieu. Dans mes prières, et dans la Bible, la Parole de Dieu avec les amis qui partagent la même foi que moi. De savoir que, quelle que soit la situation, bonne ou mauvaise, il y a un Dieu qui nous aime et c'est toute la différence pour moi.
+      country: Le Brésil
+      name: Kaká
     mulenga:
-      col1: 
-      col2: 
-      country: 
-      name: 
-  title: 
+      col1: Je n'avais aucune idée de ce que ce serait que de jouer pour l'équipe nationale. On en entend parler; on lit des choses. Maintenant je me retrouve dans une situation où je suis prêt à me faire critiquer. Tout ce que je fais - bon ou mauvais- va être critiqué et je serai obligé d'en parler. "J'ai tellement de fois posé la question à Dieu 'Pourquoi est-ce que ça m'arrive alors que je viens à toi, et que je prie.' Pourquoi est-ce que tout ça m'arrive et que le reste du monde va bien? Qu'est-ce que j'ai fait pour mériter ça ? Pour moi c'est toujours le pourquoi. Arrête avec ton pourquoi." La plus grande chose que j'ai apprise est que je ne contrôle pas ce qui se passe. Si je n'avais pas Jésus je serais perdu. Je serais complètement perdu.
+      col2: Je sais que ma force ne vient pas de moi-même. Elle vient d'en haut... Dieu ne t'amènera pas au prochain niveau si tu ne sais pas gérer la pression. Plus tu montes, pire c'est. Plus tu montes, chaque fois que tu rates le ballon, tu as des milliers de personnes qui te traitent de tous les noms ou qui disent que tu es stupide, et quand tu marques tu as des millions de personnes qui te disent que tu es le meilleur. Je ne vais pas mentir et dire "Je vie une vie chrétienne parfaite." Parfois j'ai des problèmes. Ma foi est éprouvée... Tu as tellement de défis. Tu es affronté par tellement de choses. Tu veux quelqu'un à qui parler.
+      country: La Zambie
+      name: Mulenga
+  title: La plus belle victoire

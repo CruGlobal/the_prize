@@ -22,8 +22,7 @@ function onHalt(id) {
 }
 function onFinish(id) {
   //track video finished in clicky
-  var clicky_custom = {};
-  clicky_custom.goal = { name: 'Completed Video with Questions' };
+  clicky.goal('completed video'); clicky.pause(500);
   //- end
   $('.halt').fadeIn();
 
@@ -74,7 +73,7 @@ ready = function() {
     var onPlayerStateChange = function (evt) {
       switch (evt.data) {
         case YT.PlayerState.ENDED:
-          onFinish();
+          onFinish();          
           break;
       }
     }

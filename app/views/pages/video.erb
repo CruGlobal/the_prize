@@ -5,10 +5,6 @@
 	
 	<% if t('home.video_id') == "lQmZRsyIsQI" %>
 		<iframe width='880' height='518' src='https://api.arclight.org/videoPlayerUrl?refId=4_20615-0-aiawc-theprize&amp;apiSessionId=539b34f03ef057.00887751&amp;playerStyle=default' frameborder='0' allowfullscreen></iframe>
-		<!-- Segments/Chapters -->
-		<div class="segments">
-			<a href="javascript:ytplayer.seekTo(172, true)">Enoh & Mulenga</a>
-		</div>
 	<% else %>
 	    
 	    <div id="ytplayer" data-stop_after='1546' data-video_id="<%= t('home.video_id') %>"></div>
@@ -22,7 +18,10 @@
 			</div>
 		</div>
 	<% end %>
-
+	<!-- Segments/Chapters -->
+		<div class="segments">
+			<a href="javascript:ytplayer.seekTo(172, true)">Enoh & Mulenga</a>
+		</div>
 </div>
 <div class="center">
 	<img src="<%= image_url('under-pressure-large.png') %>" />

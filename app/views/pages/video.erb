@@ -1,0 +1,111 @@
+<%= content_for :page_title, "#{t 'seperator'} #{t 'menu.home'}" %>
+<%= content_for :page, 'home' %>
+<div class="video-container">
+  
+	
+	<% if t('home.video_id') == "lQmZRsyIsQI" %>
+		<iframe width='880' height='518' src='https://api.arclight.org/videoPlayerUrl?refId=4_20615-0-aiawc-theprize&amp;apiSessionId=539b34f03ef057.00887751&amp;playerStyle=default' frameborder='0' allowfullscreen></iframe>
+	<% else %>
+	    
+	    <div id="ytplayer" data-stop_after='1546' data-video_id="<%= t('home.video_id') %>"></div>
+		<div class="halt">
+			<h3><%= t 'flow.home.question' %></h3>
+			<div class="col-md-4 col-md-offset-4">
+				<a href="<%= page_path('flow/thanks') %>" class="btn btn-lg btn-default btn-block"><%= t 'flow.home.answer1' %></a>
+				<a href="<%= page_path('flow/more') %>" class="btn btn-lg btn-default btn-block"><%= t 'flow.home.answer2' %></a>
+				<a href="<%= page_path('flow/start') %>" class="btn btn-lg btn-default btn-block"><%= t 'flow.home.answer3' %></a>
+				<a href="<%= page_path('flow/christian') %>" class="btn btn-lg btn-default btn-block"><%= t 'flow.home.answer4' %></a>
+			</div>
+		</div>
+	<% end %>
+
+</div>
+<div class="center">
+	<img src="<%= image_url('under-pressure-large.png') %>" />
+</div>
+<!--
+<div class="playerswrapper">
+		
+	<div class="bglines">
+		<div class="line orange"></div>
+		<div class="line blue"></div>
+		<div class="line green"></div>
+		<div class="line gray"></div>
+		<div class="line red"></div>
+		<div class="line darker-blue"></div>
+	</div>
+	
+	
+</div>
+-->
+<div id="players" class="players row">
+    <div class="col-sm-2 col-sm-offset-1 col-xs-6">
+      <a href="/players/kaka"><img alt="Kaka" src="<%= image_url('kaka-s.jpg')%>" />
+        <h2>Kaká</h2>
+        <h4 class="blue">Brazil</h4>
+      </a>
+    </div>
+    <div class="col-sm-2 col-xs-6">
+      <a href="/players/caucau"><img alt="Caucau" src="<%= image_url('cacau-s.jpg')%>" />
+        <h2>Cacau</h2>
+        <h4 class="blue">Germany</h4>
+      </a>
+    </div>
+    <div class="col-sm-2 col-xs-6">
+      <a href="/players/enoh"><img alt="Enoh" src="<%= image_url('enoh-s.jpg')%>" />
+        <h2>Enoh</h2>
+        <h4 class="blue">Cameroon</h4>
+      </a>
+    </div>
+    <div class="col-sm-2 col-xs-6">
+      <a href="/players/guzan"><img alt="Guzan" src="<%= image_url('guzan-s.jpg')%>" />
+        <h2>Guzan</h2>
+        <h4 class="blue">US</h4>
+      </a>
+    </div>
+    <div class="col-sm-2 col-xs-6">
+      <a href="/players/mulenga"><img alt="Mulenga" src="<%= image_url('mulenga-s.jpg')%>" />
+        <h2>Mulenga</h2>
+        <h4 class="blue">Zambia</h4>
+      </a>
+    </div>
+  </div>
+<h1><%= t 'home.meet_the_stars' %></h1>
+
+<!--
+<h2 class="blue header"><%= t 'home.title' %></h2>
+<h1><%= t 'home.meet_the_stars' %></h1>
+<div id="players" class="row">
+	<div class="col-sm-2 col-sm-offset-1 col-xs-6">
+		<a href="/players/kaka"><img alt="Kaka" src="/assets/kaka-s.jpg">
+			<h2>Kaká</h2>
+			<h4 class="blue">Brazil</h4>
+		</a>
+	</div>
+	<div class="col-sm-2 col-xs-6">
+		<a href="/players/caucau"><img alt="Caucau" src="/assets/cacau-s.jpg">
+			<h2>Cacau</h2>
+			<h4 class="blue">Germany</h4>
+		</a>
+	</div>
+	<div class="col-sm-2 col-xs-6">
+		<a href="/players/enoh"><img alt="Enoh" src="/assets/enoh-s.jpg">
+			<h2>Enoh</h2>
+			<h4 class="blue">Cameroon</h4>
+		</a>
+	</div>
+	<div class="col-sm-2 col-xs-6">
+		<a href="/players/guzan"><img alt="Guzan" src="/assets/guzan-s.jpg">
+			<h2>Guzan</h2>
+			<h4 class="blue">US</h4>
+		</a>
+	</div>
+	<div class="col-sm-2 col-xs-6">
+		<a href="/players/mulenga"><img alt="Mulenga" src="/assets/mulenga-s.jpg">
+			<h2>Mulenga</h2>
+			<h4 class="blue">Zambia</h4>
+		</a>
+	</div>
+</div>
+
+-->

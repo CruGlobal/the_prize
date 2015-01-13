@@ -22,7 +22,7 @@ function onHalt(id) {
 }
 function onFinish(id) {
   //track video finished in clicky
-  clicky.goal('completed video'); clicky.pause(500);
+  //clicky.goal('completed video'); clicky.pause(500);
   //- end
   $('.halt').fadeIn();
 

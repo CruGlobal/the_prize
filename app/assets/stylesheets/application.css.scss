@@ -392,7 +392,7 @@ footer {
 .segments li a {
 	color: #D6DADA;
 	font-size: 1.7rem;
-	text-shadow: 1px 0px 1px #009658, 0px 1px 1px #eee;
+	/*text-shadow: 1px 0px 1px #009658, 0px 1px 1px #eee;*/
 }
 
 // col-xs
@@ -520,6 +520,12 @@ footer {
     height: 100%;
   }
   .bio p { font-size: 1.0em; }
+
+  .segments li a {
+	color: #009658;
+	font-size: 1.7rem;
+	/*text-shadow: 1px 0px 1px #009658, 0px 1px 1px #eee;*/
+	}
 }
 @media (max-width: 615px) {
   .line{

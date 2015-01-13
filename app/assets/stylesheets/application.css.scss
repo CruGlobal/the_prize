@@ -386,16 +386,13 @@ footer {
 
 .segments h2 {
 	color: #D6DADA ;
+	font-size: 24px;
 }
-.segments ul.first {
-	float:left;
-}
-.segments li {paddig-top: 10px;}
+.segments li {margin-top: 10px;}
 .segments li a {
 	color: #D6DADA;
 	font-size: 1.7rem;
 	text-shadow: 1px 0px 1px #009658, 0px 1px 1px #eee;
-
 }
 
 // col-xs

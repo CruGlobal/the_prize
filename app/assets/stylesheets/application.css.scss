@@ -390,9 +390,12 @@ footer {
 .segments ul.first {
 	float:left;
 }
+.segments li {paddig-top: 10px;}
 .segments li a {
-	color: #009658;
+	color: #D6DADA;
 	font-size: 1.7rem;
+	text-shadow: 1px 0px 1px #009658, 0px 1px 1px #eee;
+
 }
 
 // col-xs

@@ -394,6 +394,9 @@ footer {
 	font-size: 1.7rem;
 	/*text-shadow: 1px 0px 1px #009658, 0px 1px 1px #eee;*/
 }
+.segments li a:hover {
+	color: #009658;
+}
 
 // col-xs
 @media (max-width: 767px) {

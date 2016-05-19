@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-ruby '2.1.1'
-gem 'rails', '4.1.0.rc1'
+ruby '2.3.0'
+gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.1'
@@ -50,7 +50,8 @@ group :development do
   gem 'rb-inotify', :require=>false
   gem 'byebug'
   gem 'pry'
-  gem 'pry-debugger'
+  gem 'pry-byebug'
+  gem 'web-console', '~> 2.0'
 end
 
 group :development, :test do
